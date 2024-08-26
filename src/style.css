@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepage {
+    background-image: url(assets/images/backgrounds/sci-fi-samurai-moon-digital-art-hd-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: auto;
+}
+.blackfilter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 50px;
+    align-items: center;
+    height: 80px;
+}
+header a button {
+    font-family: Rajdhani-sb;
+    color: aliceblue;
+    font-size: 20px;
+    border: 3px solid #FFD02C;
+    border-radius: 25px;
+    background-color: rgba(245, 245, 245, 0);
+    padding: 8px;
+    filter: drop-shadow(0 0 0.40rem rgb(0, 0, 0));
+    transition: 0.2s ease-in-out;
+}
+header a button:hover {
+    scale: 1.01;
+    filter: drop-shadow(0 0 0.40rem #ffffff);
+    transition: 0.2s ease-in-out;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    font-family: Rajdhani-sb;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+article h1 {
+    font-size: 50px;
+}
+
+article p {
+    max-width: 600px;
+
+}
+
+.storyboards{
+    position: relative;
+    background-color: #FFD02C;
+    width: 600px;
+}
+
+
+.storyboard1{
+    border: 1px solid black;
+    position: absolute;
+    bottom: -280px;
+    left: 50px;
+    z-index: 1;
+}
+.storyboard2{
+    position: absolute;
+    border: 1px solid black;
+    bottom: -110px;
+    left: 320px;
+    z-index: 2;
+}
+.homepage-img1{
+    border: 1px solid black;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.863);
+    position: absolute;
+    top: -310px;
+    left: 315px;
+    z-index: 3;
+    transition: 0.2s ease-in-out;
+
+}
+.homepage-img1:hover {
+    scale: 1.1;
+    transition: 0.2s ease-in-out;
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.651);
+}
+.homepage-img2{
+    position: absolute;
+    border: 1px solid black;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.863);
+    top: -110px;
+    left: 20px;
+    z-index: 4;
+    transition: 0.2s ease-in-out;
+}
+.homepage-img2:hover {
+    scale: 1.1;
+    transition: 0.2s ease-in-out;
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.651);
+}
+.homepage-img3{
+    position: absolute;
+    border: 1px solid black;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.863);
+    top: 95px;
+    left: 315px;
+    z-index: 5;
+    transition: 0.2s ease-in-out;
+}
+.homepage-img3:hover {
+    scale: 1.1;
+    transition: 0.2s ease-in-out;
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.651);
+}
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(14, 14, 14);
+    color: rgb(168, 168, 168);
+    font-family: Rajdhani-sb;
+}
