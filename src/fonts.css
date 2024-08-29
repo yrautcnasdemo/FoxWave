@@ -2,3 +2,15 @@
     font-family: 'Rajdhani-sb';
     src: url(assets/fonts/Rajdhani/Rajdhani-SemiBold.ttf);
 }
+@font-face {
+    font-family: 'Rajdhani-md';
+    src: url(assets/fonts/Rajdhani/Rajdhani-Medium.ttf);
+}
+@font-face {
+    font-family: 'Rajdhani-rg';
+    src: url(assets/fonts/Rajdhani/Rajdhani-Regular.ttf);
+}
+@font-face {
+    font-family: 'Post-no-bills-EX';
+    src: url(assets/fonts/post-no-bills/postnobillscolombo-extrabold.ttf);
+}

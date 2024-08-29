@@ -10,14 +10,18 @@
 <body class="homepage">
     <div class="blackfilter">
         <header>
-            <a class="btn-login" href="#"><button>Log/Register</button></a>
+            <a class="btn-project" href="project.php"><button>This project</button></a>
+            <a class="btn-login" href="user.php"><button>Log/Register</button></a>
         </header>
 
         <main>
             <section class="presentation">
                 <article>
-                    <h1>Welcome to FoxGlitch !</h1>
-                    <p>Your personal library dedicated to manga and comic book enthusiasts. Here, you can create, organize, and share your collection in a simple and intuitive way. Whether you're a seasoned collector or a casual reader, FoxGlitch helps you keep track of your readings, discover new series, and share your favorites with friends. Dive into the world of graphic stories and turn your collection into a true digital treasure. Explore, organize, and let your passion for manga and comics shine!</p>
+                    <div class="title">
+                        <p class="prev">Welcome to</p> 
+                        <h1 class="glitch"><span aria-hidden="true">FoxGlitch</span>FoxGlitch<span aria-hidden="true">FoxGlitch</span></h1>
+                    </div>
+                        <p>Your personal library dedicated to manga and comic book enthusiasts. Here, you can create, organize, and share your collection in a simple and intuitive way. Whether you're a seasoned collector or a casual reader, FoxGlitch helps you keep track of your readings, discover new series, and share your favorites with friends. Dive into the world of graphic stories and turn your collection into a true digital treasure. Explore, organize, and let your passion for manga and comics shine!</p>
                 </article>
                 <div>
                     <div class="storyboards">

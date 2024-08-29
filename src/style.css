@@ -29,12 +29,13 @@ header {
     justify-content: end;
     padding-right: 50px;
     align-items: center;
+    gap: 15px;
     height: 80px;
 }
 header a button {
     font-family: Rajdhani-sb;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 18px;
     border: 3px solid #FFD02C;
     border-radius: 25px;
     background-color: rgba(245, 245, 245, 0);
@@ -69,21 +70,118 @@ main {
     color: aliceblue;
     font-size: 20px;
 }
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 article h1 {
     font-size: 50px;
 }
+.prev {
+    font-size: 50px;
+}
+
+/*START Glitch animation @Kevin Powel => Youtube*/
+.glitch { 
+    font-size: 4rem;
+    position: relative;
+}
+.glitch:hover { 
+    font-size: 4rem;
+    position: relative;
+
+    text-shadow: 
+    0.05em 0 0 rgba(197, 0, 108, 0.75),
+    -0.025em -0.05em 0 rgba(236, 161, 0, 0.75),
+    0.025em 0.05em 0 rgba(0, 68, 255, 0.75);
+
+    animation: glitch 500ms infinite;
+}
+.glitch span {
+        display: none;
+}
+.glitch:hover span {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.glitch:hover span:first-child{
+    animation: glitch 650ms infinite;
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+    transform: translate(-0.05em, -0.025em);
+}
+.glitch:hover span:last-child{
+    animation: glitch 375ms infinite;
+    z-index: 1;
+    clip-path: polygon(0 50%, 100% 60%, 100% 100%, 0 100%);
+    transform: translate(0.05em, 0.025em);
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: 
+        0.05em 0 0 rgba(197, 0, 108, 0.75),
+        -0.05em -0.025em 0 rgba(236, 161, 0, 0.75),
+        -0.025em 0.05em 0 rgba(0, 68, 255, 0.75);
+    }
+    14% {
+        text-shadow: 
+        0.05em 0 0 rgba(197, 0, 108, 0.75),
+        -0.05em -0.025em 0 rgba(236, 161, 0, 0.75),
+        -0.025em 0.05em 0 rgba(0, 68, 255, 0.75);
+    }
+    15% {
+        text-shadow: 
+        -0.05em -0.025em 0 rgba(197, 0, 108, 0.75),
+        0.025em 0.025em 0 rgba(236, 161, 0, 0.75),
+        -0.05em -0.05em 0 rgba(0, 68, 255, 0.75);
+    }
+    49% {
+        text-shadow: 
+        -0.05em -0.025em 0 rgba(197, 0, 108, 0.75),
+        0.025em 0.025em 0 rgba(236, 161, 0, 0.75),
+        -0.05em -0.05em 0 rgba(0, 68, 255, 0.75);
+    }
+    50% {
+        text-shadow: 
+        0.025em 0.05em 0 rgba(197, 0, 108, 0.75),
+        0.05em 0 0 rgba(236, 161, 0, 0.75),
+        0 -0.05em 0 rgba(0, 68, 255, 0.75);
+    }
+    99% {
+        text-shadow: 
+        0.025em 0.05em 0 rgba(197, 0, 108, 0.75),
+        0.05em 0 0 rgba(236, 161, 0, 0.75),
+        0 -0.05em 0 rgba(0, 68, 255, 0.75);
+    }
+    100% {
+        text-shadow: 
+        -0.025em 0 0 rgba(197, 0, 108, 0.75),
+        -0.025em -0.025em 0 rgba(236, 161, 0, 0.75),
+        -0.025em -0.05em 0 rgba(0, 68, 255, 0.75);
+    }
+}
+/*END Glitch animation*/
+
 
 article p {
     max-width: 600px;
-
 }
 
+/*BD/COMICS PANEL*/
 .storyboards{
     position: relative;
     background-color: #FFD02C;
     width: 600px;
 }
-
 
 .storyboard1{
     border: 1px solid black;
@@ -91,6 +189,12 @@ article p {
     bottom: -280px;
     left: 50px;
     z-index: 1;
+    transition: 0.2s ease-in-out;
+}
+.storyboard1:hover{
+    transition: 0.2s ease-in-out;
+    transform: rotate(-3deg);
+    scale: 1.05;
 }
 .storyboard2{
     position: absolute;
@@ -98,6 +202,13 @@ article p {
     bottom: -110px;
     left: 320px;
     z-index: 2;
+    transition: 0.2s ease-in-out;
+}
+.storyboard2:hover{
+    transition: 0.2s ease-in-out;
+    transform: rotate(3deg);
+    left: 335px;
+    scale: 1.05;
 }
 .homepage-img1{
     border: 1px solid black;
@@ -144,8 +255,7 @@ article p {
 }
 
 
-
-
+/* FOOTER */
 footer {
     display: flex;
     flex-direction: column;
@@ -155,4 +265,235 @@ footer {
     background-color: rgb(14, 14, 14);
     color: rgb(168, 168, 168);
     font-family: Rajdhani-sb;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* THIS PROJECT */
+
+.tv-show {
+    position: relative;
+    overflow: hidden;
+    width: 640px;
+    height: 600px;
+}
+
+.retrowave-grid-movie {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.tv-show img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+h5 {
+    font-size: 1.5rem;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    top: 200px;
+    left: 250px;
+    color: rgb(255, 0, 140);
+    font-family: Rajdhani-sb;
+    z-index: 3;
+    animation: textretrowave 2500ms infinite;
+}
+
+@keyframes textretrowave {
+    0% {
+        opacity: 0;
+        scale: 0.2;
+    }
+    50% {
+        opacity: 1;
+        top: 300px;
+    }
+    80% {
+        /* filter: blur(1px); */
+    }
+    100% {
+        opacity: 0;
+        scale: 4;
+        top: 300px;
+        /* filter: blur(3px); */
+    }
+}
+
+
+
+
+
+/* USER PAGE */
+
+.user-body {
+    background: linear-gradient(#AC1818, #530070);
+    padding: 40px;
+}
+
+.user-space {
+    background-color: rgb(14, 14, 14);
+}
+.user-banner img{
+    height: 330px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.user-panel{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+.user-profile {
+    width: 300px;
+    height: 100%;
+    background-color: #854242;
+    margin-left: 100px;
+    margin-top: -240px;
+    box-shadow: 15px 15px 20px black;
+    /* margin-bottom: 40px; */
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    left: 330px;
+    top: 110px;
+    font-family: Post-no-bills-EX;
+}
+.user-name {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.user-title {
+    font-size: 32px;
+    color: #FDB314;
+}
+.user-pics {
+    position: relative;
+    width: 300px;
+}
+.user-pics img {
+    object-fit: cover;
+}
+.user-btn-panel{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.user-pics a button {
+    background-color: #D9D9D9;
+    border: 2px solid #1e1e1e;
+    height: 40px;
+    font-family: Rajdhani-sb;
+    color: #1e1e1e;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.user-pics a img {
+    border: 2px solid #D9D9D9;
+    width: 30px;
+    height: 40px;
+    object-fit: contain;
+    background-color: #1e1e1e;
+    border-radius: 25px;
+}
+.user-about {
+    display: flex;
+    flex-direction: column;
+    font-family: Rajdhani-sb;
+    gap: 10px;
+    margin: 10px;
+    color: rgb(221, 221, 221);
+}
+.user-about h3 {
+    font-size: 24px;
+}
+.user-about p {
+    max-height: 250px;
+    overflow: scroll;
+}
+.user-social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.user-social-media img {
+    transition: 0.2s ease-in-out;
+}
+.user-social-media img:hover {
+    scale: 1.1;
+    transition: 0.2s ease-in-out;
+}
+
+.user-manga-panel {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg,#621A1A, #AE1F1F);
+    margin-right: 100px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.user-manga-panel img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+table {
+    border-collapse: collapse;
+    color: aliceblue;
+    margin: 40px;
+}
+.table-header {
+    background-color: #52007000;
+    font-family: Rajdhani-sb;
+    font-size: 28px;
+    height: 80px;
+    color: #FFD02C;
+}
+tr {
+    background-color: #621A1A;
+    font-family: Rajdhani-md;
+    font-size: 20px;
+    }
+tr:nth-child(even) {
+    background-color: #252525;
+    }
+th, td {
+    padding: 5px;
 }
