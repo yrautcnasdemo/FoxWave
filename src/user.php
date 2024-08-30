@@ -43,142 +43,160 @@
                     </div>
                 </div>
                 <div class="user-manga-panel">
-                    
+                    <div class="banner-img">
                         <img src="assets/images/profiles/banner-manga2.jpg" alt="manga-banner">
-                    
-                    <table>
-                        <thead>
-                            <tr class="table-header">
-                                <td>Title</td>
-                                <th>Full</th>
-                                <th>Vol.</th>
-                                <th>Publication</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Berserk</td>
-                                <th>N</th>
-                                <th>49</th>
-                                <th>Ongoing...</th>
-                            </tr>
-                            <tr>
-                                <td>Gunnm</td>
-                                <th>F</th>
-                                <th>21</th>
-                                <th>Completed</th>
-                            </tr>
-                            <tr>
-                                <td>Gunnm: Last order</td>
-                                <th>F</th>
-                                <th>26</th>
-                                <th>Completed</th>
-                            </tr>
-                            <tr>
-                                <td>Gunnm: Mars Chronicle</td>
-                                <th>N</th>
-                                <th>10</th>
-                                <th>Ongoing...</th>
-                            </tr>
-                            <tr>
-                                <td>Dragon Ball</td>
-                                <th>F</th>
-                                <th>51</th>
-                                <th>Completed</th>
-                            </tr>
-                            <tr>
-                                <td>Binbō-gami ga !</td>
-                                <th>F</th>
-                                <th>16</th>
-                                <th>Completed</th>
-                            </tr>
-                            <tr>
-                                <td>Claymore</td>
-                                <th>F</th>
-                                <th>64</th>
-                                <th>Completed</th>
-                            </tr>
-                            <tr>
-                                <td>I'm Hero</td>
-                                <th>N</th>
-                                <th>34</th>
-                                <th>Ongoing...</th>
-                            </tr>
-                            <tr>
-                                <td>Fruits basket</td>
-                                <th>F</th>
-                                <th>27</th>
-                                <th>Completed</th>
-                            </tr>
-                            <tr>
-                                <td>Goblin's Slayer</td>
-                                <th>N</th>
-                                <th>15</th>
-                                <th>Ongoing...</th>
-                            </tr>
-                            <tr>
-                                <td>Pretty Face</td>
-                                <th>F</th>
-                                <th>12</th>
-                                <th>Completed</th>
-                            </tr>
-                            <tr>
-                                <td>Great Teacher Onizuka</td>
-                                <th>F</th>
-                                <th>40</th>
-                                <th>Completed</th>
-                            </tr>
-                            <tr>
-                                <td>Tokyo Ghoul</td>
-                                <th>N</th>
-                                <th>40</th>
-                                <th>Ongoing...</th>
-                            </tr>
-                            <tr>
-                                <td>On-punch Man</td>
-                                <th>N</th>
-                                <th>14</th>
-                                <th>Ongoing...</th>
-                            </tr>
-                            <tr>
-                                <td>Monster</td>
-                                <th>N</th>
-                                <th>19</th>
-                                <th>Ongoing...</th>
-                            </tr>
-                            <tr>
-                                <td>Akira</td>
-                                <th>F</th>
-                                <th>21</th>
-                                <th>Completed</th>
-                            </tr>
-                            <tr>
-                                <td>Death Note</td>
-                                <th>F</th>
-                                <th>24</th>
-                                <th>Completed</th>
-                            </tr>
-                            <tr>
-                                <td>Assassinassions classe room</td>
-                                <th>F</th>
-                                <th>17</th>
-                                <th>Ongoing...</th>
-                            </tr>
-                            <tr>
-                                <td>Angel Sanctuary</td>
-                                <th>F</th>
-                                <th>23</th>
-                                <th>Completed</th>
-                            </tr>
-                            <tr>
-                                <td>You're under Arrest !</td>
-                                <th>F</th>
-                                <th>21</th>
-                                <th>Completed</th>
-                            </tr>
-                            
-                        </tbody>
-                    </table>
+                        <a class="btn-list" href="#">Manga List</a>
+                    </div>
+                    <div class="books-filter">
+                        <span>Filter:</span><input type="text" placeholder="Title">
+                        <input type="checkbox"> <span>incomplete collection</span>
+                        <a class="btn-search" href="#">Search</a>
+                    </div>
+                    <div class="bubble-line">
+                        <div class="line">
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                        </div>
+                    </div>
+                    <div class="books-table">
+                        <table>
+                            <thead>
+                                <tr class="table-header">
+                                    <td>Title</td>
+                                    <th>Full</th>
+                                    <th>Vol.</th>
+                                    <th>Publication</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Berserk</td>
+                                    <th>N</th>
+                                    <th>49</th>
+                                    <th>Ongoing...</th>
+                                </tr>
+                                <tr>
+                                    <td>Gunnm</td>
+                                    <th>F</th>
+                                    <th>21</th>
+                                    <th>Completed</th>
+                                </tr>
+                                <tr>
+                                    <td>Gunnm: Last order</td>
+                                    <th>F</th>
+                                    <th>26</th>
+                                    <th>Completed</th>
+                                </tr>
+                                <tr>
+                                    <td>Gunnm: Mars Chronicle</td>
+                                    <th>N</th>
+                                    <th>10</th>
+                                    <th>Ongoing...</th>
+                                </tr>
+                                <tr>
+                                    <td>Dragon Ball</td>
+                                    <th>F</th>
+                                    <th>51</th>
+                                    <th>Completed</th>
+                                </tr>
+                                <tr>
+                                    <td>Binbō-gami ga !</td>
+                                    <th>F</th>
+                                    <th>16</th>
+                                    <th>Completed</th>
+                                </tr>
+                                <tr>
+                                    <td>Claymore</td>
+                                    <th>F</th>
+                                    <th>64</th>
+                                    <th>Completed</th>
+                                </tr>
+                                <tr>
+                                    <td>I'm Hero</td>
+                                    <th>N</th>
+                                    <th>34</th>
+                                    <th>Ongoing...</th>
+                                </tr>
+                                <tr>
+                                    <td>Fruits basket</td>
+                                    <th>F</th>
+                                    <th>27</th>
+                                    <th>Completed</th>
+                                </tr>
+                                <tr>
+                                    <td>Goblin's Slayer</td>
+                                    <th>N</th>
+                                    <th>15</th>
+                                    <th>Ongoing...</th>
+                                </tr>
+                                <tr>
+                                    <td>Pretty Face</td>
+                                    <th>F</th>
+                                    <th>12</th>
+                                    <th>Completed</th>
+                                </tr>
+                                <tr>
+                                    <td>Great Teacher Onizuka</td>
+                                    <th>F</th>
+                                    <th>40</th>
+                                    <th>Completed</th>
+                                </tr>
+                                <tr>
+                                    <td>Tokyo Ghoul</td>
+                                    <th>N</th>
+                                    <th>40</th>
+                                    <th>Ongoing...</th>
+                                </tr>
+                                <tr>
+                                    <td>On-punch Man</td>
+                                    <th>N</th>
+                                    <th>14</th>
+                                    <th>Ongoing...</th>
+                                </tr>
+                                <tr>
+                                    <td>Monster</td>
+                                    <th>N</th>
+                                    <th>19</th>
+                                    <th>Ongoing...</th>
+                                </tr>
+                                <tr>
+                                    <td>Akira</td>
+                                    <th>F</th>
+                                    <th>21</th>
+                                    <th>Completed</th>
+                                </tr>
+                                <tr>
+                                    <td>Death Note</td>
+                                    <th>F</th>
+                                    <th>24</th>
+                                    <th>Completed</th>
+                                </tr>
+                                <tr>
+                                    <td>Assassinassions classe room</td>
+                                    <th>F</th>
+                                    <th>17</th>
+                                    <th>Ongoing...</th>
+                                </tr>
+                                <tr>
+                                    <td>Angel Sanctuary</td>
+                                    <th>F</th>
+                                    <th>23</th>
+                                    <th>Completed</th>
+                                </tr>
+                                <tr>
+                                    <td>You're under Arrest !</td>
+                                    <th>F</th>
+                                    <th>21</th>
+                                    <th>Completed</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 
@@ -191,4 +209,5 @@
             <p>Special thanks</p>
     </footer>
 </body>
+<script src="script.js"></script>
 </html>
