@@ -47,11 +47,13 @@
                         <img src="assets/images/profiles/banner-manga2.jpg" alt="manga-banner">
                         <a class="btn-list" href="#">Manga List</a>
                     </div>
+
                     <div class="books-filter">
                         <span>Filter:</span><input type="text" placeholder="Title">
                         <div><input type="checkbox"><label>incomplete collection</label></div>
                         <a class="btn-search" href="#">Search</a>
                     </div>
+                    
                     <div class="bubble-line">
                         <div class="line">
                             <div class="bubble"></div>
