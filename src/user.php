@@ -36,20 +36,20 @@
                     <div class="user-social-media">
                         <a href=""><img src="assets/images/icones/Mediainstagram.png" width="35px" alt="instagram-icon"></a>
                         <a href=""><img src="assets/images/icones/Mediafacebook.png" width="35px" alt="facebook-icon"></a>
-                        <a href=""><img src="assets/images/icones/X-twitter.png" width="35px" alt="-icon"></a>
-                        <a href=""><img src="assets/images/icones/steam.png" width="35px" alt="-icon"></a>
-                        <a href=""><img src="assets/images/icones/twitch.webp" width="35px" alt="-icon"></a>
-                        <a href=""><img src="assets/images/icones/SL.png" width="35px" alt="-icon"></a>
+                        <a href=""><img src="assets/images/icones/X-twitter.png" width="35px" alt="twitter-icon"></a>
+                        <a href=""><img src="assets/images/icones/steam.png" width="35px" alt="steam-icon"></a>
+                        <a href=""><img src="assets/images/icones/twitch.webp" width="35px" alt="twitch-icon"></a>
+                        <a href=""><img src="assets/images/icones/SL.png" width="35px" alt="SL-icon"></a>
                     </div>
                 </div>
-                <div class="user-manga-panel">
+                <div class="user-manga-panel expanded">
                     <div class="banner-img">
                         <img src="assets/images/profiles/banner-manga2.jpg" alt="manga-banner">
                         <a class="btn-list" href="#">Manga List</a>
                     </div>
                     <div class="books-filter">
                         <span>Filter:</span><input type="text" placeholder="Title">
-                        <input type="checkbox"> <span>incomplete collection</span>
+                        <div><input type="checkbox"><label>incomplete collection</label></div>
                         <a class="btn-search" href="#">Search</a>
                     </div>
                     <div class="bubble-line">
