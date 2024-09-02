@@ -434,6 +434,13 @@ h5 {
     transition: 0.2s ease-in-out;
 }
 
+/*Collections panel*/
+.full-panel{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
 /*User Manga panel*/
 .user-manga-panel {
     display: flex;
@@ -461,11 +468,6 @@ h5 {
     position: absolute;
     bottom: 30px;
     right: 70px;
-}
-.full-panel{
-    display: flex;
-    flex-direction: column;
-    margin-right: 40px;
 }
 .user-manga-panel{
     overflow: hidden;
