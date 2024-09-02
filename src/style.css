@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.26);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -321,7 +321,7 @@ h5 {
 /*///USER PAGE///*/
 .user-body {
     background: linear-gradient(#AC1818, #530070);
-    padding: 40px;
+    /* padding: 40px; */
 }
 .user-space {
     background-color: rgb(27, 27, 27);
@@ -336,7 +336,7 @@ h5 {
 .user-panel{
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 80px;
 }
 
 /*User-profile*/
@@ -437,7 +437,7 @@ h5 {
 /*Collections panel*/
 .full-panel{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-right: 40px;
 }
 
@@ -445,16 +445,30 @@ h5 {
 .user-manga-panel {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(90deg,#621A1A, #AE1F1F);
-    margin-right: 100px;
+    background: linear-gradient(90deg,#500a0a, #811010);
+    margin-right: 50px;
     height: 1200px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 40px;
     box-shadow: 15px 15px 20px rgb(0, 0, 0);
 }
 .banner-img{
     position: relative;
+}
+.banner-img::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(90deg, #00000085, #02020202);
+    z-index: 1;
+    transition: 0.5s ease-in-out;
+}
+.banner-img:hover::before {
+    background: linear-gradient(90deg, #00000000, #02020202);
+    z-index: 1;
+    transition: 0.5s ease-in-out;
 }
 .btn-list {
     font-family: Post-no-bills-EX;
@@ -468,6 +482,7 @@ h5 {
     position: absolute;
     bottom: 30px;
     right: 70px;
+    z-index: 2;
 }
 .user-manga-panel{
     overflow: hidden;
@@ -571,7 +586,7 @@ table {
     color: #FFD02C;
 }
 tr {
-    background-color: #621A1A;
+    background-color: #500a0a;
     font-family: Rajdhani-md;
     font-size: 20px;
     }
@@ -590,7 +605,7 @@ th, td {
     margin-right: 100px;
     height: 1200px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 40px;
     box-shadow: 15px 15px 20px rgb(0, 0, 0);
 }
@@ -606,6 +621,7 @@ th, td {
     position: absolute;
     bottom: 30px;
     right: 70px;
+    z-index: 2;
 }
 .user-comics-panel{
     overflow: hidden;
@@ -642,3 +658,119 @@ th, td {
 .comics-table tr:nth-child(even) {
     background-color: #252525;
     }
+
+
+
+/*///Friend-list///*/
+.user-profile-friendlist {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    background: linear-gradient(270deg, #700034, #000000);
+    margin-left: 100px;
+    margin-top: -240px;
+    box-shadow: 15px 15px 20px black;
+    margin-bottom: 40px;
+}
+.friendlist-tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Rajdhani-sb;
+    gap: 25px;
+    margin: 10px;
+    color: rgb(221, 221, 221);
+    z-index: 999;
+}
+.friendlist-tools h3 {
+    font-size: 34px;
+    z-index: 10;
+}
+.friendlist-tools input {
+    font-family: Rajdhani-sb;
+    padding: 5px;
+    z-index: 10;
+}
+.fl-disp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1px;
+}
+.fl-disp img {
+    height: 35px;
+    padding-top: 6px;
+}
+.loop-grid-fl {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    z-index: 1;
+}
+.fl-movie{
+    position: absolute;
+    left: -70px;
+    width: 440px;
+    height: 395px;
+    z-index: 1;
+}
+
+/*Friend list*/
+.friendslist-board{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 80px;
+    /* margin-right: 80px; */
+    font-family: Rajdhani-sb;
+    color: aliceblue;
+}
+.friendslist-board h2{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    z-index: 20;
+    font-size: 30px;
+}
+.friendslist-board span{
+    position: absolute;
+    top: 30px;    
+    left: 60px;
+    font-size: 20px;
+    z-index: 20;
+}
+.bloc-fl-unique{
+    position: relative;
+    background-color: rgba(255, 255, 0, 0);
+    width: 400px;
+    height: 250px;
+}
+.banner-fl-sup{
+    position: absolute;
+    width: 350px;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.banner-fl-down {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 400px;
+    filter: drop-shadow(3px 3px 3px #9d00ff49);
+    filter: drop-shadow(7px 7px 8px #ff00c850);
+}
+.pp-friend{
+    position: absolute;
+    top: 75px;
+    left: 130px;
+    z-index: 15;
+    width: 120px;
+    height: 120px;
+    border: 2px solid #FFD02C;
+    object-fit: cover;
+}
