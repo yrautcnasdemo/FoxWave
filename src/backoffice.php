@@ -16,7 +16,7 @@
 
 
             <div class="user-panel">
-                <div class="user-profile">
+                <article class="user-profile">
                     <div class="user-pics">
                         <div class="user-info">
                             <span class="user-name">Judy Alvarez</span>
@@ -42,26 +42,40 @@
                         <a href="#"><img src="assets/images/icones/twitch.webp" width="35px" alt="twitch-icon"></a>
                         <a href="#"><img src="assets/images/icones/SL.png" width="35px" alt="SL-icon"></a>
                     </div>
-                </div>
+                </article>
 
 
-                <div class="backoffice-panel">
+                <article class="backoffice-panel">
                     <div class="backoffice-intro">
                         <h1>Add Books</h1>
                         <div class="divider"></div>
+                        <div class="add-books-panel">
+                            <div>
+                                <span>Title:</span> <input type="text">
+                            </div>
+                            <div>
+                                <label for="dropdown">Choose an option:</label>
+                                    <select id="dropdown" name="options">
+                                        <option value="option1">Completed</option>
+                                        <option value="option2">Ongoing...</option>
+                                    </select>
+                            </div>
+                            <div>
+                                <span>Number of published volumes:</span> <input type="number" min="1" max="300">
+                            </div>
+                        </div>
+
+
+
+                        </div>
                     </div>
-                </div>
+                </article>
+
 
 
 
 
             </div>
-
-
-
-            
-
-
         </section>
     </main>
     <footer>
