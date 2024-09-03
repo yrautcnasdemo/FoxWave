@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="fonts.css">
     <title>userName</title>
 </head>
-<body >
+<body>
     <main class="user-body">
         <section class="user-space">
             <div class="user-banner">
