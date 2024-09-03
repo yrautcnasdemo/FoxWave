@@ -45,7 +45,18 @@
                 </div>
 
 
-
+                <div class="full-panel">
+                    <article class="user-backoffice-panel">
+                        <div class="banner-img">
+                            <img src="assets/images/profiles/backoffice-banner.jpg" alt="manga-banner">
+                        </div>
+                        <div class="backoffice-panel">
+                            <button class="backoffice-manga" href="#">Add Manga</button>
+                            <span>CHOOSE</span>
+                            <button class="backoffice-comics" href="#">Add Comics</button>
+                        </div>
+                    </article>
+                </div>
             </div>
 
 

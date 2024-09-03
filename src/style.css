@@ -437,7 +437,7 @@ h5 {
 /*Collections panel*/
 .full-panel{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-right: 40px;
 }
 
@@ -726,7 +726,7 @@ th, td {
     gap: 50px;
     margin-top: 80px;
     margin-bottom: 80px;
-    margin-right: 40px;
+    margin-right: 0px;
     font-family: Rajdhani-sb;
     color: aliceblue;
 }
@@ -806,4 +806,43 @@ th, td {
 .remove-icon:hover {
     scale: 1.2;
     cursor: pointer;
+}
+
+
+
+/*///BACKOFFICE////*/
+.user-backoffice-panel {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg,#500a0a, #811010);
+    margin-right: 50px;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    box-shadow: 15px 15px 20px rgb(0, 0, 0);
+}
+.user-backoffice-panel img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.backoffice-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Rajdhani-sb;
+    font-weight: bold;
+    font-size: 34px;
+    color: aliceblue;
+    height: 100px;
+}
+.backoffice-panel button {
+    font-family: Rajdhani-sb;
+    font-weight: bold;
+    font-size: 20px;
+    width: 120px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+
 }
