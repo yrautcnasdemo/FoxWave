@@ -46,9 +46,7 @@
 
 
                 <article class="backoffice-panel">
-                    <div class="helper">
-                        
-                    </div>
+                    
                     <div class="backoffice-intro">
                         <h1>Add Books</h1>
                         <div class="divider"></div>
@@ -70,7 +68,7 @@
                                     <span>Title:</span> <input type="text">
                                 </div>
                                 <div>
-                                    <label for="dropdown">Choose an option:</label>
+                                    <label for="dropdown">Publication:</label>
                                         <select id="dropdown" name="options">
                                             <option value="option1">Completed</option>
                                             <option value="option2">Ongoing...</option>
@@ -267,10 +265,18 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
 
+                    <div class="helper">
+                        <div class="small-tv">
+                            <img src="" alt="">
+                        </div>
+                        <div class="help-txt">
+                            <p>doazkdo doako pdazpdkzoad opzakdop azodk opzakd opzakdop kzaopdkzopakd opzakopdkeaopdk opakfop keop krpok ropk opkbopreobk ropbkoprbkoprekopb kreopbk ojbioreio ehbiohe iobjioejb iboiejboiejtbio jeibj ioebjip tejbp jepb bjprejbp etjobp joejbpetjopgrejopgjreopgj rpoegj porejgopre jg porejg oprejopgjrepogj ropejg porejgpo jreopg joprejg pejgpoej jjvffv</p>
                         </div>
                     </div>
                 </article>
+            </div>
 
 
 
