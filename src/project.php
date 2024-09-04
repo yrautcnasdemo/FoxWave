@@ -22,6 +22,17 @@
     </div>
 </div>
 
+<div class="retroTV">
+    <div class="tv-show2">
+        <video class="retrowave-grid-movie2" autoplay loop>
+            <source src="assets/images/backgrounds/Video/Cj4Q.mp4" type="video/mp4">
+        </video>
+        <img src="assets/images/backgrounds/Retro-tv.png" alt="">
+        <div class="glitch-in-box">
+            <h5>FoxGlitch</h5>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

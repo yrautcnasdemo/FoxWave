@@ -46,7 +46,7 @@
 
 
                 <article class="backoffice-panel">
-                    <div>
+                    <div class="helper">
                         
                     </div>
                     <div class="backoffice-intro">
