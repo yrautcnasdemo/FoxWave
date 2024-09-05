@@ -77,7 +77,7 @@
                             <table>
                                 <thead>
                                     <tr class="table-header">
-                                        <td>Title</td>
+                                        <th>Title</th>
                                         <th>Full</th>
                                         <th>Vol.</th>
                                         <th>Publication</th>
@@ -86,123 +86,123 @@
                                 <tbody>
                                     <tr>
                                         <td>Berserk</td>
-                                        <th>N</th>
-                                        <th>49</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>49</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Gunnm</td>
-                                        <th>F</th>
-                                        <th>21</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>21</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Gunnm: Last order</td>
-                                        <th>F</th>
-                                        <th>26</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>26</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Gunnm: Mars Chronicle</td>
-                                        <th>N</th>
-                                        <th>10</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>10</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Dragon Ball</td>
-                                        <th>F</th>
-                                        <th>51</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>51</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Binbō-gami ga !</td>
-                                        <th>F</th>
-                                        <th>16</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>16</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Claymore</td>
-                                        <th>F</th>
-                                        <th>64</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>64</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>I'm Hero</td>
-                                        <th>N</th>
-                                        <th>34</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>34</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Fruits basket</td>
-                                        <th>F</th>
-                                        <th>27</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>27</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Goblin's Slayer</td>
-                                        <th>N</th>
-                                        <th>15</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>15</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Pretty Face</td>
-                                        <th>F</th>
-                                        <th>12</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>12</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Great Teacher Onizuka</td>
-                                        <th>F</th>
-                                        <th>40</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>40</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Tokyo Ghoul</td>
-                                        <th>N</th>
-                                        <th>40</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>40</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>On-punch Man</td>
-                                        <th>N</th>
-                                        <th>14</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>14</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Monster</td>
-                                        <th>N</th>
-                                        <th>19</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>19</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Akira</td>
-                                        <th>F</th>
-                                        <th>21</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>21</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
-                                        <td>Death Note</td>
-                                        <th>F</th>
-                                        <th>24</th>
-                                        <th>Completed</th>
+                                        <td>Deatd Note</td>
+                                        <td>F</td>
+                                        <td>24</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Assassinassions classe room</td>
-                                        <th>F</th>
-                                        <th>17</th>
-                                        <th>Ongoing...</th>
+                                        <td>F</td>
+                                        <td>17</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Angel Sanctuary</td>
-                                        <th>F</th>
-                                        <th>23</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>23</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>You're under Arrest !</td>
-                                        <th>F</th>
-                                        <th>21</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>21</td>
+                                        <td>Completed</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -241,7 +241,7 @@
                             <table class="comics-table">
                                 <thead>
                                     <tr class="table-header">
-                                        <td>Title</td>
+                                        <th>Title</th>
                                         <th>Full</th>
                                         <th>Vol.</th>
                                         <th>Publication</th>
@@ -250,123 +250,123 @@
                                 <tbody>
                                     <tr>
                                         <td>Berserk</td>
-                                        <th>N</th>
-                                        <th>49</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>49</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Gunnm</td>
-                                        <th>F</th>
-                                        <th>21</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>21</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Gunnm: Last order</td>
-                                        <th>F</th>
-                                        <th>26</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>26</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Gunnm: Mars Chronicle</td>
-                                        <th>N</th>
-                                        <th>10</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>10</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Dragon Ball</td>
-                                        <th>F</th>
-                                        <th>51</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>51</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Binbō-gami ga !</td>
-                                        <th>F</th>
-                                        <th>16</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>16</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Claymore</td>
-                                        <th>F</th>
-                                        <th>64</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>64</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>I'm Hero</td>
-                                        <th>N</th>
-                                        <th>34</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>34</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Fruits basket</td>
-                                        <th>F</th>
-                                        <th>27</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>27</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Goblin's Slayer</td>
-                                        <th>N</th>
-                                        <th>15</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>15</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Pretty Face</td>
-                                        <th>F</th>
-                                        <th>12</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>12</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Great Teacher Onizuka</td>
-                                        <th>F</th>
-                                        <th>40</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>40</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Tokyo Ghoul</td>
-                                        <th>N</th>
-                                        <th>40</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>40</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>On-punch Man</td>
-                                        <th>N</th>
-                                        <th>14</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>14</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Monster</td>
-                                        <th>N</th>
-                                        <th>19</th>
-                                        <th>Ongoing...</th>
+                                        <td>N</td>
+                                        <td>19</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Akira</td>
-                                        <th>F</th>
-                                        <th>21</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>21</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
-                                        <td>Death Note</td>
-                                        <th>F</th>
-                                        <th>24</th>
-                                        <th>Completed</th>
+                                        <td>Deatd Note</td>
+                                        <td>F</td>
+                                        <td>24</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>Assassinassions classe room</td>
-                                        <th>F</th>
-                                        <th>17</th>
-                                        <th>Ongoing...</th>
+                                        <td>F</td>
+                                        <td>17</td>
+                                        <td>Ongoing...</td>
                                     </tr>
                                     <tr>
                                         <td>Angel Sanctuary</td>
-                                        <th>F</th>
-                                        <th>23</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>23</td>
+                                        <td>Completed</td>
                                     </tr>
                                     <tr>
                                         <td>You're under Arrest !</td>
-                                        <th>F</th>
-                                        <th>21</th>
-                                        <th>Completed</th>
+                                        <td>F</td>
+                                        <td>21</td>
+                                        <td>Completed</td>
                                     </tr>
                                 </tbody>
                             </table>

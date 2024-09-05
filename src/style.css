@@ -832,9 +832,8 @@ th, td {
     align-items: start;
     flex-wrap: wrap;
     width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 70px;
+    margin: 70px 20px 50px 20px;
+    /* background-color: #500a0a; */
 }
 .backoffice-intro{
     display: flex;
@@ -842,7 +841,7 @@ th, td {
     justify-content: space-around;
     align-items: start;
     max-width: 600px;
-    background: linear-gradient(90deg,#500a0ab9, #811010bb);
+    background: linear-gradient(90deg,#41132c, #651830); /*linear-gradient(90deg,#41132C, #651830) or linear-gradient(90deg,#500a0ab9, #811010bb);*/
     padding: 0px 20px 25px 20px;
     box-shadow: 10px 10px 20px black;
     border: 2px solid rgb(204, 204, 204);
@@ -851,6 +850,7 @@ th, td {
 .starter {
     display: flex;
     flex-direction: column;
+    /* background-color: rgb(22, 42, 134); */
 }
 .backoffice-intro h1 {
     color: #FDB314;
@@ -969,12 +969,43 @@ th, td {
     flex-direction: row;
     justify-content: center;
 }
-/* .books-table {
-    height: 100px;
-    width: 100px;
-    background-color: red;
+.backoffice-table-edit {
+    margin: 50px;
     width: 100%;
-} */
+    /* background-color: rgb(21, 255, 0); */
+}
+.backoffice-table-edit table {
+    border-collapse: separate;
+    border: 2px solid rgb(204, 204, 204);
+}
+.backoffice-table-edit table thead {
+    color: #FDB314;
+}
+.backoffice-table-edit table th {
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.backoffice-table-edit table thead th:nth-child(1),
+.backoffice-table-edit table thead th:nth-child(2) {
+    width: 40px;
+}
+.backoffice-table-edit table td {
+    margin: auto;
+    text-align: center;
+}
+
+.backoffice-table-edit tr {
+    background: linear-gradient(90deg,#41132C, #651830);
+    font-family: Rajdhani-md;
+    font-size: 20px;
+    }
+.backoffice-table-edit tr:nth-child(even) {
+    background: #252525;
+    }
+
+    /*#41132C, #651830*/
 
 /*Help back office*/
 .helper {
@@ -1023,6 +1054,7 @@ th, td {
     overflow: hidden;
     font-family: Rajdhani-sb;
     color: aliceblue;
+    box-shadow: 10px 10px 20px black;
 }
 .help-txt h4 {
     margin-bottom: 8px;

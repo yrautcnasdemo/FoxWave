@@ -271,13 +271,8 @@
                                     </div>
                                 </div> -->
                             </div>
-                        </div>
 
-                        <div class="books-panel">
-                            <div class="books-table">
-                            </div>
                         </div>
-
                     </article>
 
                     <div class="divider3"></div>
@@ -295,17 +290,93 @@
                             <p>Step 1 - Register your book's name</p>
                             <p>Step 2 - Select a category: Manga or Comics</p>
                             <p>Step 3 - Enter the number of published volumes to select the volumes in your possession later</p>
-                            <p>Step 4 - Select the status of your collection: Completed (fully published) or Ongoing (in progress)?</p>
+                            <p>Step 4 - Select the status of your collection: Completed (fully published) or Ongoing (in progress)</p>
                             <p class="last-step">After that, you can select all the volumes in your possession (or "select all" and unselect the volumes you're missing)</p>
                         </div>
                     </div>
+
+                    <div class="backoffice-table-edit">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col"></th>
+                                    <th scope="col">Title</th>
+                                    <th scope="col">Full</th>
+                                    <th scope="col">Vol.</th>
+                                    <th scope="col">Publication</th>
+                                    <th scope="col"><input type="checkbox"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href=""><img src="assets/images/icones/trashbox.png" width="20px" alt="trashbox"></a></td>
+                                    <td><a href=""><img src="assets/images/icones/edit.png" width="20px" alt="edit"></a></td>
+                                    <th class="l-case" scope="row">Berserk</th>
+                                    <td>N/f</td>
+                                    <td>48</td>
+                                    <td>Ongoing...</td>
+                                    <td><input type="checkbox"></td>
+                                </tr>
+                                <tr>
+                                    <td><a href=""><img src="assets/images/icones/trashbox.png" width="20px" alt="trashbox"></a></td>
+                                    <td><a href=""><img src="assets/images/icones/edit.png" width="20px" alt="edit"></a></td>
+                                    <th class="l-case" scope="row">Assassinassions classe room</th>
+                                    <td>N/f</td>
+                                    <td>48</td>
+                                    <td>Ongoing...</td>
+                                    <td><input type="checkbox"></td>
+                                </tr>
+                                <tr>
+                                    <td><a href=""><img src="assets/images/icones/trashbox.png" width="20px" alt="trashbox"></a></td>
+                                    <td><a href=""><img src="assets/images/icones/edit.png" width="20px" alt="edit"></a></td>
+                                    <th class="l-case" scope="row">Gunnm</th>
+                                    <td>N/f</td>
+                                    <td>948</td>
+                                    <td>Completed</td>
+                                    <td><input type="checkbox"></td>
+                                </tr>
+                                <tr>
+                                    <td><a href=""><img src="assets/images/icones/trashbox.png" width="20px" alt="trashbox"></a></td>
+                                    <td><a href=""><img src="assets/images/icones/edit.png" width="20px" alt="edit"></a></td>
+                                    <th class="l-case" scope="row">Gunnm: Last order</th>
+                                    <td>N/f</td>
+                                    <td>48</td>
+                                    <td>Completed</td>
+                                    <td><input type="checkbox"></td>
+                                </tr>
+                                <tr>
+                                    <td><a href=""><img src="assets/images/icones/trashbox.png" width="20px" alt="trashbox"></a></td>
+                                    <td><a href=""><img src="assets/images/icones/edit.png" width="20px" alt="edit"></a></td>
+                                    <th class="l-case" scope="row">Gunnm: Mars Chronicle</th>
+                                    <td>N/f</td>
+                                    <td>48</td>
+                                    <td>Completed</td>
+                                    <td><input type="checkbox"></td>
+                                </tr>                                <tr>
+                                    <td><a href=""><img src="assets/images/icones/trashbox.png" width="20px" alt="trashbox"></a></td>
+                                    <td><a href=""><img src="assets/images/icones/edit.png" width="20px" alt="edit"></a></td>
+                                    <th class="l-case" scope="row">Dragon Ball</th>
+                                    <td>N/f</td>
+                                    <td>48</td>
+                                    <td>Completed</td>
+                                    <td><input type="checkbox"></td>
+                                </tr>                                <tr>
+                                    <td><a href=""><img src="assets/images/icones/trashbox.png" width="20px" alt="trashbox"></a></td>
+                                    <td><a href=""><img src="assets/images/icones/edit.png" width="20px" alt="edit"></a></td>
+                                    <th class="l-case" scope="row">Binbō-gami ga !</th>
+                                    <td>N/f</td>
+                                    <td>48</td>
+                                    <td>Completed</td>
+                                    <td><input type="checkbox"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </section>
             </div>
-<!-- 
-            <article class="books-panel">
-                <div class="books-table">
-                </div>
-            </article> -->
+
+
         </section>
     </main>
     <footer>
