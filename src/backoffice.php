@@ -24,7 +24,8 @@
                         </div>
                         <img src="assets/images/profiles/profiles_pictures/cute-anime-girl-R.jpg" width="300px" height="500px" alt="profile-pics">
                             <div class="user-btn-panel">
-                                <a href="user.php"><button>My Lists</button></a>
+                            <a href="backoffice.php"><button>Add books</button></a>
+                                <a href="user.php"><img class="booklist-icon" src="assets/images/icones/booklist.png" width="35px" alt=""></a>
                                 <a href="friendslist.php"><img src="assets/images/icones/Friend List(1).png" width="35px" alt=""></a>
                                 <a href=""><img src="assets/images/icones/Wishlist.png" width="35px" alt=""></a>
                                 <a href=""><img src="assets/images/icones/GearWhite-Small-icon01.png" width="35px" alt=""></a>
@@ -120,7 +121,7 @@
                                         <input type="checkbox" id="volume"><label for="volume">vol.006</label>
                                     </div>
                                 </div>
-                                <!-- <div class="vol">
+                                <div class="vol">
                                     <div class="book-vol">
                                         <input type="checkbox" id="volume"><label for="volume">vol.007</label>
                                     </div>
@@ -135,7 +136,7 @@
                                         <input type="checkbox" id="volume"><label for="volume">vol.009</label>
                                     </div>
                                 </div>
-                                <div class="vol">
+                                <!-- <div class="vol">
                                     <div class="book-vol">
                                         <input type="checkbox" id="volume"><label for="volume">vol.010</label>
                                     </div>
@@ -296,6 +297,7 @@
                     </div>
 
                     <div class="backoffice-table-edit">
+                        <img src="" alt="">
                         <table>
                             <thead>
                                 <tr>
@@ -331,8 +333,8 @@
                                     <td><a href=""><img src="assets/images/icones/trashbox.png" width="20px" alt="trashbox"></a></td>
                                     <td><a href=""><img src="assets/images/icones/edit.png" width="20px" alt="edit"></a></td>
                                     <th class="l-case" scope="row">Gunnm</th>
-                                    <td>N/f</td>
-                                    <td>948</td>
+                                    <td>Full</td>
+                                    <td>24</td>
                                     <td>Completed</td>
                                     <td><input type="checkbox"></td>
                                 </tr>
@@ -340,8 +342,8 @@
                                     <td><a href=""><img src="assets/images/icones/trashbox.png" width="20px" alt="trashbox"></a></td>
                                     <td><a href=""><img src="assets/images/icones/edit.png" width="20px" alt="edit"></a></td>
                                     <th class="l-case" scope="row">Gunnm: Last order</th>
-                                    <td>N/f</td>
-                                    <td>48</td>
+                                    <td>Full</td>
+                                    <td>34</td>
                                     <td>Completed</td>
                                     <td><input type="checkbox"></td>
                                 </tr>
@@ -350,18 +352,20 @@
                                     <td><a href=""><img src="assets/images/icones/edit.png" width="20px" alt="edit"></a></td>
                                     <th class="l-case" scope="row">Gunnm: Mars Chronicle</th>
                                     <td>N/f</td>
-                                    <td>48</td>
-                                    <td>Completed</td>
+                                    <td>12</td>
+                                    <td>Ongoing...</td>
                                     <td><input type="checkbox"></td>
-                                </tr>                                <tr>
+                                </tr>                                
+                                <tr>
                                     <td><a href=""><img src="assets/images/icones/trashbox.png" width="20px" alt="trashbox"></a></td>
                                     <td><a href=""><img src="assets/images/icones/edit.png" width="20px" alt="edit"></a></td>
                                     <th class="l-case" scope="row">Dragon Ball</th>
-                                    <td>N/f</td>
+                                    <td>Full</td>
                                     <td>48</td>
                                     <td>Completed</td>
                                     <td><input type="checkbox"></td>
-                                </tr>                                <tr>
+                                </tr>                                
+                                <tr>
                                     <td><a href=""><img src="assets/images/icones/trashbox.png" width="20px" alt="trashbox"></a></td>
                                     <td><a href=""><img src="assets/images/icones/edit.png" width="20px" alt="edit"></a></td>
                                     <th class="l-case" scope="row">Binbō-gami ga !</th>

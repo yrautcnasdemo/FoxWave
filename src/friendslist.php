@@ -26,6 +26,7 @@
                             <div class="user-btn-panel">
                                 <a href="backoffice.php"><button>Add books</button></a>
                                 <a href="user.php"><img class="booklist-icon" src="assets/images/icones/booklist.png" width="35px" alt=""></a>
+                                <a href="friendslist.php"><img src="assets/images/icones/Friend List(1).png" width="35px" alt=""></a>
                                 <a href=""><img src="assets/images/icones/Wishlist.png" width="35px" alt=""></a>
                                 <a href=""><img src="assets/images/icones/GearWhite-Small-icon01.png" width="35px" alt=""></a>
                             </div>                    
@@ -65,7 +66,9 @@
                     <div class="bloc-fl-unique">
                         <img class="banner-fl-sup" src="assets/images/profiles/banner-fl-sup.png" alt="banner-flsup">
                         <img class="banner-fl-down" src="assets/images/profiles/banner-fl-down.png" alt="banner-fldown">
-                        <img class="pp-friend" src="assets/images/profiles/profiles_pictures/catwim.jpg" alt="profile-pic-friend">
+                        <div class="pp-box">
+                            <img class="pp-friend" src="assets/images/profiles/profiles_pictures/catwim.jpg" alt="profile-pic-friend">
+                        </div>
                         <img class="dial-icon" src="assets/images/icones/dial-icon.png" alt="">
                         <img class="remove-icon" src="assets/images/icones/Retrowave/Remove-icon-retro.png" alt="">
                         <h2>Furry-Kurry</h2>
@@ -75,7 +78,9 @@
                     <div class="bloc-fl-unique">
                         <img class="banner-fl-sup" src="assets/images/profiles/banner-fl-sup.png" alt="banner-flsup">
                         <img class="banner-fl-down" src="assets/images/profiles/banner-fl-down.png" alt="banner-fldown">
-                        <img class="pp-friend" src="assets/images/profiles/profiles_pictures/cutefox.jpg" alt="profile-pic-friend">
+                        <div class="pp-box">
+                            <img class="pp-friend" src="assets/images/profiles/profiles_pictures/cutefox.jpg" alt="profile-pic-friend">
+                        </div>
                         <img class="dial-icon" src="assets/images/icones/dial-icon.png" alt="">
                         <img class="remove-icon" src="assets/images/icones/Retrowave/Remove-icon-retro.png" alt="">
                         <h2>Yrautcnas</h2>
@@ -85,7 +90,9 @@
                     <div class="bloc-fl-unique">
                         <img class="banner-fl-sup" src="assets/images/profiles/banner-fl-sup.png" alt="banner-flsup">
                         <img class="banner-fl-down" src="assets/images/profiles/banner-fl-down.png" alt="banner-fldown">
-                        <img class="pp-friend" src="assets/images/profiles/profiles_pictures/dj-monkey.jpg" alt="profile-pic-friend">
+                        <div class="pp-box">
+                            <img class="pp-friend" src="assets/images/profiles/profiles_pictures/dj-monkey.jpg" alt="profile-pic-friend">
+                        </div>
                         <img class="dial-icon" src="assets/images/icones/dial-icon.png" alt="">
                         <img class="remove-icon" src="assets/images/icones/Retrowave/Remove-icon-retro.png" alt="">
                         <h2>Donky-Monk</h2>
@@ -95,7 +102,9 @@
                     <div class="bloc-fl-unique">
                         <img class="banner-fl-sup" src="assets/images/profiles/banner-fl-sup.png" alt="banner-flsup">
                         <img class="banner-fl-down" src="assets/images/profiles/banner-fl-down.png" alt="banner-fldown">
-                        <img class="pp-friend" src="assets/images/profiles/profiles_pictures/eyes.jpg" alt="profile-pic-friend">
+                        <div class="pp-box">
+                            <img class="pp-friend" src="assets/images/profiles/profiles_pictures/eyes.jpg" alt="profile-pic-friend">
+                        </div>
                         <img class="dial-icon" src="assets/images/icones/dial-icon.png" alt="">
                         <img class="remove-icon" src="assets/images/icones/Retrowave/Remove-icon-retro.png" alt="">
                         <h2>Little-E</h2>
@@ -105,7 +114,9 @@
                     <div class="bloc-fl-unique">
                         <img class="banner-fl-sup" src="assets/images/profiles/banner-fl-sup.png" alt="banner-flsup">
                         <img class="banner-fl-down" src="assets/images/profiles/banner-fl-down.png" alt="banner-fldown">
-                        <img class="pp-friend" src="assets/images/profiles/profiles_pictures/catwim.jpg" alt="profile-pic-friend">
+                        <div class="pp-box">
+                            <img class="pp-friend" src="assets/images/profiles/profiles_pictures/catwim.jpg" alt="profile-pic-friend">
+                        </div>
                         <img class="dial-icon" src="assets/images/icones/dial-icon.png" alt="">
                         <img class="remove-icon" src="assets/images/icones/Retrowave/Remove-icon-retro.png" alt="">
                         <h2>Furry-Kurry</h2>
@@ -115,7 +126,9 @@
                     <div class="bloc-fl-unique">
                         <img class="banner-fl-sup" src="assets/images/profiles/banner-fl-sup.png" alt="banner-flsup">
                         <img class="banner-fl-down" src="assets/images/profiles/banner-fl-down.png" alt="banner-fldown">
-                        <img class="pp-friend" src="assets/images/profiles/profiles_pictures/catwim.jpg" alt="profile-pic-friend">
+                        <div class="pp-box">
+                            <img class="pp-friend" src="assets/images/profiles/profiles_pictures/catwim.jpg" alt="profile-pic-friend">
+                        </div>
                         <img class="dial-icon" src="assets/images/icones/dial-icon.png" alt="">
                         <img class="remove-icon" src="assets/images/icones/Retrowave/Remove-icon-retro.png" alt="">
                         <h2>Furry-Kurry</h2>
@@ -125,7 +138,9 @@
                     <div class="bloc-fl-unique">
                         <img class="banner-fl-sup" src="assets/images/profiles/banner-fl-sup.png" alt="banner-flsup">
                         <img class="banner-fl-down" src="assets/images/profiles/banner-fl-down.png" alt="banner-fldown">
-                        <img class="pp-friend" src="assets/images/profiles/profiles_pictures/cutefox.jpg" alt="profile-pic-friend">
+                        <div class="pp-box">
+                            <img class="pp-friend" src="assets/images/profiles/profiles_pictures/cutefox.jpg" alt="profile-pic-friend">
+                        </div>
                         <img class="dial-icon" src="assets/images/icones/dial-icon.png" alt="">
                         <img class="remove-icon" src="assets/images/icones/Retrowave/Remove-icon-retro.png" alt="">
                         <h2>Yrautcnas</h2>
@@ -135,7 +150,9 @@
                     <div class="bloc-fl-unique">
                         <img class="banner-fl-sup" src="assets/images/profiles/banner-fl-sup.png" alt="banner-flsup">
                         <img class="banner-fl-down" src="assets/images/profiles/banner-fl-down.png" alt="banner-fldown">
-                        <img class="pp-friend" src="assets/images/profiles/profiles_pictures/dj-monkey.jpg" alt="profile-pic-friend">
+                        <div class="pp-box">
+                            <img class="pp-friend" src="assets/images/profiles/profiles_pictures/dj-monkey.jpg" alt="profile-pic-friend">
+                        </div>
                         <img class="dial-icon" src="assets/images/icones/dial-icon.png" alt="">
                         <img class="remove-icon" src="assets/images/icones/Retrowave/Remove-icon-retro.png" alt="">
                         <h2>Donky-Monk</h2>
@@ -145,7 +162,9 @@
                     <div class="bloc-fl-unique">
                         <img class="banner-fl-sup" src="assets/images/profiles/banner-fl-sup.png" alt="banner-flsup">
                         <img class="banner-fl-down" src="assets/images/profiles/banner-fl-down.png" alt="banner-fldown">
-                        <img class="pp-friend" src="assets/images/profiles/profiles_pictures/eyes.jpg" alt="profile-pic-friend">
+                        <div class="pp-box">
+                            <img class="pp-friend" src="assets/images/profiles/profiles_pictures/eyes.jpg" alt="profile-pic-friend">
+                        </div>
                         <img class="dial-icon" src="assets/images/icones/dial-icon.png" alt="">
                         <img class="remove-icon" src="assets/images/icones/Retrowave/Remove-icon-retro.png" alt="">
                         <h2>Little-E</h2>
@@ -155,7 +174,9 @@
                     <div class="bloc-fl-unique">
                         <img class="banner-fl-sup" src="assets/images/profiles/banner-fl-sup.png" alt="banner-flsup">
                         <img class="banner-fl-down" src="assets/images/profiles/banner-fl-down.png" alt="banner-fldown">
-                        <img class="pp-friend" src="assets/images/profiles/profiles_pictures/catwim.jpg" alt="profile-pic-friend">
+                        <div class="pp-box">
+                            <img class="pp-friend" src="assets/images/profiles/profiles_pictures/catwim.jpg" alt="profile-pic-friend">
+                        </div>
                         <img class="dial-icon" src="assets/images/icones/dial-icon.png" alt="">
                         <img class="remove-icon" src="assets/images/icones/Retrowave/Remove-icon-retro.png" alt="">
                         <h2>Furry-Kurry</h2>

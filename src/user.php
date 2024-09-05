@@ -25,6 +25,7 @@
                         <img src="assets/images/profiles/profiles_pictures/cute-anime-girl-R.jpg" width="300px" height="500px" alt="profile-pics">
                             <div class="user-btn-panel">
                                 <a href="backoffice.php"><button>Add books</button></a>
+                                <a href="user.php"><img class="booklist-icon" src="assets/images/icones/booklist.png" width="35px" alt=""></a>
                                 <a href="friendslist.php"><img src="assets/images/icones/Friend List(1).png" width="35px" alt=""></a>
                                 <a href=""><img src="assets/images/icones/Wishlist.png" width="35px" alt=""></a>
                                 <a href=""><img src="assets/images/icones/GearWhite-Small-icon01.png" width="35px" alt=""></a>

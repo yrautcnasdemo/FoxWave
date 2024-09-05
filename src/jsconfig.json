@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",  // Définit "src" comme la racine pour les chemins relatifs
+      "paths": {
+        "*": ["*"]
+      }
+    },
+    "exclude": ["node_modules", "dist"]
+  }
+  

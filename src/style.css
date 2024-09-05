@@ -781,8 +781,7 @@ th, td {
 }
 
 
-
-.pp-friend{
+.pp-box{
     position: absolute;
     top: 75px;
     left: 130px;
@@ -792,14 +791,19 @@ th, td {
     border: 2px solid #FFD02C;
     object-fit: cover;
     transition: 0.1s ease-in-out;
+    overflow: hidden;
+}
+.pp-friend{
+    position: absolute;
+    z-index: 15;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    transition: 0.1s ease-in-out;
 }
 .pp-friend:hover {
-    width: 130px;
-    height: 130px;
-    top: 60px;
-    left: 125px;
-    box-shadow: 10px 10px 20px black;
     transform: rotate(5deg);
+    scale: 1.2;
     transition: 0.1s ease-in-out;
     cursor: pointer;
 }
@@ -970,6 +974,8 @@ th, td {
     justify-content: center;
 }
 .backoffice-table-edit {
+    display: flex;
+    flex-direction: row;
     margin: 50px;
     width: 100%;
     /* background-color: rgb(21, 255, 0); */
@@ -1004,7 +1010,6 @@ th, td {
 .backoffice-table-edit tr:nth-child(even) {
     background: #252525;
     }
-
     /*#41132C, #651830*/
 
 /*Help back office*/
