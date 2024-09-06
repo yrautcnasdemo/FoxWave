@@ -813,6 +813,13 @@ th, td {
     left: 260px;
     top: 80px;
     z-index: 10;
+    transition: 0.1s ease-in-out;
+}
+.dial-icon:hover {
+    scale: 1.1;
+    cursor: pointer;
+    transform: rotate(5deg);
+    transition: 0.1s ease-in-out;
 }
 .remove-icon {
     position: absolute;

@@ -1,5 +1,5 @@
 /*////// AUDIO PLAYING FRIEND LIST //////*/
-document.querySelectorAll('.pp-friend').forEach(ppFriend => {
+document.querySelectorAll('.dial-icon').forEach(ppFriend => {
     const hoverSound = ppFriend.closest('.bloc-fl-unique').querySelector('.hover-sound');
     ppFriend.addEventListener('click', () => {
         hoverSound && (hoverSound.currentTime = 0, hoverSound.play());
