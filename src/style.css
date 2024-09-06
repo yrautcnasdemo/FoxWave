@@ -395,6 +395,14 @@ h5 {
     border-radius: 25px;
     cursor: pointer;
 }
+.user-pics a button:hover {
+    background-color: #6F0034;
+    border: 2px solid aliceblue;
+    font-size: 22px;
+    color: aliceblue;
+    box-shadow: 0px 0px 20px rgb(252, 0, 84);
+    transition: 0.2s ease-in-out;
+}
 .user-pics a img {
     border: 2px solid #D9D9D9;
     width: 30px;
