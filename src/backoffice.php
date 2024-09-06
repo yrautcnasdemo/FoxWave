@@ -296,8 +296,37 @@
                         </div>
                     </div>
 
+                    <!-- <h1>AJOUTER BOUTON "DELETE SELECTION" ET SELECT MANGA - COMICS PUIS REGLER LIMAGE</h1> -->
                     <div class="backoffice-table-edit">
-                        <img src="" alt="">
+                        <div class="edit-help">
+                            <div class="backoffice-edit-panel">
+                                <h1>Edit books list</h1>
+                                <div class="divider"></div>
+                                <div>
+                                    <button>Manga list</button>
+                                    <button>Comics list</button>
+                                    <button>Delete Selection</button>
+                                </div>
+                            </div>
+
+                    <div class="divider3"></div>
+
+
+                            <div class="helper">
+                                <div class="small-tv">
+                                    <video class="tv-grid2" autoplay loop>
+                                        <source src="assets/images/backgrounds/Video/retrowave-car.mp4" type="video/mp4">
+                                    </video>
+                                    <img class="retro-cat" src="assets/images/profiles/cyberpunk-cat-head-sticker3.png" alt="cat-helper-layer">
+                                    <img class="retro-tv-back" src="assets/images/backgrounds/Retro-tv.png" alt="tv-layer">
+                                </div>
+                                <div class="help-txt">
+                                    <h4 class="bebop">Follow Bebop The cat for help</h4>
+                                    <p>Here you can edit or delete a book. You can also delete multiple selections</p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="divider4"></div>
                         <table>
                             <thead>
                                 <tr>
@@ -376,6 +405,8 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <!-- <img src="assets/images/profiles/GutsBanner.png" alt=""> -->
+
                     </div>
                 </section>
             </div>

@@ -975,7 +975,9 @@ th, td {
 }
 .backoffice-table-edit {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 50px;
     width: 100%;
     /* background-color: rgb(21, 255, 0); */
@@ -983,6 +985,7 @@ th, td {
 .backoffice-table-edit table {
     border-collapse: separate;
     border: 2px solid rgb(204, 204, 204);
+    box-shadow: 10px 10px 20px black;
 }
 .backoffice-table-edit table thead {
     color: #FDB314;
@@ -1057,7 +1060,7 @@ th, td {
     border: 2px solid rgb(204, 204, 204);
     border-radius: 10px;
     overflow: hidden;
-    font-family: Rajdhani-sb;
+    font-family: Rajdhani-md;
     color: aliceblue;
     box-shadow: 10px 10px 20px black;
 }
@@ -1073,4 +1076,56 @@ th, td {
 .bebop {
     font-size: 20px;
     color: #FDB314;
+}
+
+/*Edit book table*/
+.backoffice-edit-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 600px;
+    background: linear-gradient(90deg,#41132c, #651830);
+    padding: 0px 20px 25px 20px;
+    margin-top: 60px;
+    box-shadow: 10px 10px 20px black;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 20px;
+}
+.backoffice-edit-panel h1 {
+    color: #FDB314;
+    font-family: Rajdhani-sb;
+    font-size: 26px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.backoffice-edit-panel button {
+    font-family: Rajdhani-sb;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: 2px solid #1e1e1e;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.divider4 {
+    width: 5px;
+    min-height: 50px;
+    background-color: rgb(204, 204, 204);
+    margin-left: -400px;
+    box-shadow: 6px 6px 6px black;
+}
+.edit-help {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tv-grid2{
+    position: absolute;
+    height: 100px;
+    left: -4px;
+    top: -6px;
+    z-index: -1;
 }
