@@ -9,30 +9,9 @@
 </head>
 <body>
 
-<div class="retroTV">
-    <div class="tv-show">
-        <video class="retrowave-grid-movie" width="640" height="360" autoplay loop>
-            <source src="assets/images/backgrounds/Video/Cj4Q.mp4" type="video/mp4">
-        </video>
-        <img src="assets/images/backgrounds/retroTValpha.png" alt="">
-        <div class="glitch-in-box">
-            <h5>FoxGlitch</h5>
-            <!-- <h5 class="glitch-in-box"><span aria-hidden="true">FoxGlitch</span>FoxGlitch<span aria-hidden="true">FoxGlitch</span></h5> -->
-        </div>
-    </div>
-</div>
+<p>FoxGlitch est mon dernier projet réalisé en formation, nous avions une total liberté, j'ai donc décidé de développer un site de bibliothèque Manga/Comics pour mes amis et moi même</p>
 
-<div class="retroTV">
-    <div class="tv-show2">
-        <video class="retrowave-grid-movie2" autoplay loop>
-            <source src="assets/images/backgrounds/Video/Cj4Q.mp4" type="video/mp4">
-        </video>
-        <img src="assets/images/backgrounds/Retro-tv.png" alt="">
-        <div class="glitch-in-box">
-            <h5>FoxGlitch</h5>
-        </div>
-    </div>
-</div>
+
 
 </body>
 </html>

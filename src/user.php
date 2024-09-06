@@ -11,7 +11,7 @@
     <main class="user-body">
         <section class="user-space">
             <div class="user-banner">
-                <img src="assets/images/profiles/profiles_banner/cyberpunk-night-city2.jpg" alt="">
+                <img src="assets/images/profiles/profiles_banner/cyberpunk-night-city2.jpg" alt="banner-user">
             </div>
 
 
@@ -22,7 +22,7 @@
                             <span class="user-name">Judy Alvarez</span>
                             <span class="user-title">Space-Child</span>
                         </div>
-                        <img src="assets/images/profiles/profiles_pictures/cute-anime-girl-R.jpg" width="300px" height="500px" alt="profile-pics">
+                        <img src="assets/images/profiles/profiles_pictures/cute-anime-girl-R.jpg" width="300px" height="500px" alt="profile-pics-user">
                             <div class="user-btn-panel">
                                 <a href="backoffice.php"><button>Add books</button></a>
                                 <a href="user.php"><img class="booklist-icon" src="assets/images/icones/booklist.png" width="35px" alt=""></a>
