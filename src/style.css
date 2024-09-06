@@ -361,6 +361,7 @@ h5 {
 .user-name {
     font-size: 40px;
     color: #FFFFFF;
+    filter: drop-shadow(0 0 2px rgb(255, 0, 119));
 }
 .user-title {
     font-size: 32px;
@@ -388,10 +389,10 @@ h5 {
     background-color: #D9D9D9;
     border: 2px solid #1e1e1e;
     height: 40px;
+    width: 110px;
     font-family: Rajdhani-sb;
     color: #1e1e1e;
     font-size: 20px;
-    padding: 5px 10px;
     border-radius: 25px;
     cursor: pointer;
 }
