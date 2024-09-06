@@ -48,7 +48,28 @@
 </p> -->
 
 
-<!-- Ah, Batman, toujours à traîner dans l’ombre avec ton sens moral bien aiguisé… Mais laisse-moi te parler de quelque chose d’un peu plus… amusant, oui ? Imagine un endroit, une petite cachette secrète – non pas pour tes gadgets ou tes batarangs, non, non, non – mais pour… des mangas et des comics. Oh oui, mon cher Chevalier Noir, un site où tu peux collectionner toutes tes précieuses histoires de justiciers masqués et de méchants tordus.
-Ça s’appelle… Ah, quel joli nom aurais-je pu trouver pour ça ? Peu importe, c’est notre petite bibliothèque ! Là, tu entres le titre de tes comics, tu enregistres chaque volume avec précision – comme toi avec tes preuves. Ensuite, tu sélectionnes ton précieux statut : est-ce que ta collection est complète, ou peut-être qu’elle est encore en train de croître… comme une belle petite folie, hmmm ?! Et tu ne fais pas tout ça seul, oh non, mon cher Batounet ! Tu peux ajouter… des amis ! Oui, des amis ! Et partager ta précieuse liste avec eux. Qui sait, peut-être qu’un jour tu seras aussi apprécié pour tes lectures que pour ton sens de la justice défaillant, héhé !
-Oh, mais attention, Batman… une collection partagée peut révéler plus que tu ne le crois. Alors, tu joins la danse ou tu restes dans ta Batcave, à relire tes vieux exemplaires de Detective Comics ?
-Allez, fais-moi plaisir, rejoins la fête ! -->
+<!--
+01joker – Alors comme ca tu veux en savoir plus sur ce projet, batou ?
+02Batman- Non…
+03joker- Pourtant tu as cliker, donc ca t’interesse forcement… héhéhé
+04Batman- Arrete Joker, abandonne, quelque soit ton plan je le réduirai a néant... 
+
+05Joker - Ah, Batman, toujours à traîner dans l’ombre avec ton sens moral bien aiguisé… Mais laisse-moi te parler de quelque chose 
+d’un peu plus… amusant, oui ? Imagine un endroit, une petite cachette secrète – non pas pour tes gadgets ou tes batarangs, 
+non, non, non – mais pour… des mangas et des comics. Oh oui, mon cher Chevalier Noir, un site où tu peux collectionner toutes tes 
+précieuses histoires de justiciers masqués et de méchants tordus.
+Ça s’appelle FoxGlitch ! Là, tu entres le titre de tes comics, tu enregistres chaque volume avec précision – comme toi avec tes preuves. 
+Ensuite, tu sélectionnes ton précieux statut : est-ce que ta collection est complète, ou peut-être qu’elle est encore en train de croître… 
+comme une belle petite folie, hmmm ?! Et tu ne fais pas tout ça seul, oh non, mon cher Batounet ! Tu peux ajouter… des amis ! Oui, des amis ! 
+Et partager ta précieuse liste avec eux. Qui sait, peut-être qu’un jour tu seras aussi apprécié pour tes lectures que pour ton sens de la 
+justice défaillant, héhé !
+Oh, mais attention, Batman… une collection partagée peut révéler plus que tu ne le crois. Alors, tu joins la danse ou tu restes dans ta 
+Batcave, à relire tes vieux exemplaires de Detective Comics ?
+06Jokerbis-Allez, fais-moi plaisir, rejoins la fête ! 
+
+-Qu'est ce qu'il a dit sur Detective Comics !? // Non Clark arrete... !
+-J'espere que ton code n'est pas dégueulasse Joker sinon je t'envoie a Arkam pour le restant de tes jours... 
+
+Joker-  avec tout ton code moral… Tu penses vraiment pouvoir me patcher, Batou ? Spoiler alert: Je suis la faille dans ton système !
+-->
+
