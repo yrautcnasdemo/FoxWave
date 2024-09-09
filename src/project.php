@@ -7,22 +7,34 @@
     <link rel="stylesheet" href="fonts.css">
     <title>FoxGlitch-Project</title>
 </head>
-<body>
-
-<p>FoxGlitch est mon dernier projet réalisé en formation, et comme nous avions une total liberté, j'ai décidé de développer un site de bibliothèque Manga/Comics pour mes amis et moi même</p>
-<p>Mes objectifs</p>
-<p>
-    1-Pouvoir créer sa propre liste de mangas/comics
-    2-pouvoir la mettre a jour facilement
-    0-Créer un site relativement intuitif 
-    3-Modifier et customiser son profile 
-    4-Laisser une place pour faire evoluer le site
-    5-Integrer un system de friend list
-    6-Integrer un system de Wish list
-    7-Integrer un system de chat
-    </p>
-
-
+<body class="project-grid">
+    <main class="this-project">
+        <div class="stripboard-1">
+        </div>
+        <div class="stripboard-2">
+            <img src="" alt="">
+        </div>
+        <div class="stripboard-3">
+            <img src="" alt="">
+        </div>
+        <div class="stripboard-4">
+            <div class="img-grid-4">
+                <img src="assets/images/Project Storyboard/01.png" alt="">
+            </div>
+        </div>
+        <div class="stripboard-5">
+            <img src="" alt="">
+        </div>
+        <div class="stripboard-6">
+            <img src="" alt="">
+        </div>
+        <div class="stripboard-7">
+            <img src="" alt="">
+        </div>
+        <div class="stripboard-8">
+            <img src="" alt="">
+        </div>
+    </main>
 </body>
 </html>
 
@@ -68,8 +80,23 @@ Batcave, à relire tes vieux exemplaires de Detective Comics ?
 06Jokerbis-Allez, fais-moi plaisir, rejoins la fête ! 
 
 -Qu'est ce qu'il a dit sur Detective Comics !? // Non Clark arrete... !
--J'espere que ton code n'est pas dégueulasse Joker sinon je t'envoie a Arkam pour le restant de tes jours... 
+-J'espere que ton code n'est pas dégueulasse Joker sinon je t'envoie a Arkham pour le restant de tes jours... 
 
 Joker-  avec tout ton code moral… Tu penses vraiment pouvoir me patcher, Batou ? Spoiler alert: Je suis la faille dans ton système !
 -->
 
+
+
+
+<!-- <p>FoxGlitch est mon dernier projet réalisé en formation, et comme nous avions une total liberté, j'ai décidé de développer un site de bibliothèque Manga/Comics pour mes amis et moi même</p>
+<p>Mes objectifs</p>
+<p>
+    1-Pouvoir créer sa propre liste de mangas/comics
+    2-pouvoir la mettre a jour facilement
+    0-Créer un site relativement intuitif 
+    3-Modifier et customiser son profile 
+    4-Laisser une place pour faire evoluer le site
+    5-Integrer un system de friend list
+    6-Integrer un system de Wish list
+    7-Integrer un system de chat
+    </p> -->

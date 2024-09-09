@@ -126,44 +126,44 @@ article h1 {
     0% {
         text-shadow: 
         0.05em 0 0 rgba(197, 0, 108, 0.75),
-        -0.05em -0.025em 0 rgba(236, 161, 0, 0.75),
-        -0.025em 0.05em 0 rgba(0, 68, 255, 0.75);
+        -0.05em -0.025em 0 rgba(168, 168, 168, 0.75),
+        -0.025em 0.05em 0 rgba(255, 255, 255, 0.75);
     }
     14% {
         text-shadow: 
         0.05em 0 0 rgba(197, 0, 108, 0.75),
-        -0.05em -0.025em 0 rgba(236, 161, 0, 0.75),
-        -0.025em 0.05em 0 rgba(0, 68, 255, 0.75);
+        -0.05em -0.025em 0 rgba(168, 168, 168, 0.75),
+        -0.025em 0.05em 0 rgba(255, 255, 255, 0.75);
     }
     15% {
         text-shadow: 
         -0.05em -0.025em 0 rgba(197, 0, 108, 0.75),
-        0.025em 0.025em 0 rgba(236, 161, 0, 0.75),
-        -0.05em -0.05em 0 rgba(0, 68, 255, 0.75);
+        0.025em 0.025em 0 rgba(168, 168, 168, 0.75),
+        -0.05em -0.05em 0 rgba(255, 255, 255, 0.75);
     }
     49% {
         text-shadow: 
         -0.05em -0.025em 0 rgba(197, 0, 108, 0.75),
-        0.025em 0.025em 0 rgba(236, 161, 0, 0.75),
-        -0.05em -0.05em 0 rgba(0, 68, 255, 0.75);
+        0.025em 0.025em 0 rgba(168, 168, 168, 0.75),
+        -0.05em -0.05em 0 rgba(255, 255, 255, 0.75);
     }
     50% {
         text-shadow: 
         0.025em 0.05em 0 rgba(197, 0, 108, 0.75),
-        0.05em 0 0 rgba(236, 161, 0, 0.75),
-        0 -0.05em 0 rgba(0, 68, 255, 0.75);
+        0.05em 0 0 rgba(168, 168, 168, 0.75),
+        0 -0.05em 0 rgba(255, 255, 255, 0.75);
     }
     99% {
         text-shadow: 
         0.025em 0.05em 0 rgba(197, 0, 108, 0.75),
-        0.05em 0 0 rgba(236, 161, 0, 0.75),
-        0 -0.05em 0 rgba(0, 68, 255, 0.75);
+        0.05em 0 0 rgba(168, 168, 168, 0.75),
+        0 -0.05em 0 rgba(255, 255, 255, 0.75);
     }
     100% {
         text-shadow: 
         -0.025em 0 0 rgba(197, 0, 108, 0.75),
-        -0.025em -0.025em 0 rgba(236, 161, 0, 0.75),
-        -0.025em -0.05em 0 rgba(0, 68, 255, 0.75);
+        -0.025em -0.025em 0 rgba(168, 168, 168, 0.75),
+        -0.025em -0.05em 0 rgba(255, 255, 255, 0.75);
     }
 }
 /*END Glitch animation*/
@@ -261,59 +261,78 @@ footer {
 
 
 /*///THIS PROJECT///*/
-.tv-show {
-    position: relative;
-    overflow: hidden;
-    width: 640px;
-    height: 600px;
+.project-grid {
+    height: 100vh;
+    margin: 0;
+    padding: 20px 300px;
 }
-.retrowave-grid-movie {
-    position: absolute;
-    top: 0;
-    left: 0;
+
+.this-project {
+    display: grid;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    grid-template-areas: 
+        "stripboard-1 stripboard-1 stripboard-1 stripboard-2 stripboard-2 stripboard-3"
+        "stripboard-4 stripboard-5 stripboard-5 stripboard-5 stripboard-5 stripboard-3"
+        "stripboard-4 stripboard-5 stripboard-5 stripboard-5 stripboard-5 stripboard-6"
+        "stripboard-7 stripboard-7 stripboard-7 stripboard-8 stripboard-8 stripboard-8";
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 20px;
 }
-.tv-show img {
-    position: absolute;
-    top: 0;
-    left: 0;
+.stripboard-1 {
+    grid-area: stripboard-1;
+    background-image: url(assets/images/Project-Storyboard/01.png);
+    background-size: cover;
     width: 100%;
     height: 100%;
-    z-index: 2;
 }
-h5 {
-    font-size: 1.5rem;
-    position: absolute;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    top: 200px;
-    left: 250px;
-    color: rgb(255, 0, 140);
-    font-family: Rajdhani-sb;
-    z-index: 3;
-    animation: textretrowave 2500ms infinite;
+.stripboard-2 {
+    grid-area: stripboard-2;
+    background-image: url(assets/images/Project-Storyboard/02-Batman.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
-/*TV ANIMATION*/
-@keyframes textretrowave {
-    0% {
-        opacity: 0;
-        scale: 0.2;
-    }
-    50% {
-        opacity: 1;
-        top: 300px;
-    }
-    80% {
-        /* filter: blur(1px); */
-    }
-    100% {
-        opacity: 0;
-        scale: 4;
-        top: 300px;
-        /* filter: blur(3px); */
-    }
+.stripboard-3 {
+    grid-area: stripboard-3;
+    background-image: url(assets/images/Project-Storyboard/03-joker.jpg);
+    background-size: cover;
+    background-position: -20px -20px;
+    width: 100%;
+    height: 100%;
+}
+.stripboard-4 {
+    grid-area: stripboard-4;
+    background-image: url(assets/images/Project-Storyboard/04-Batman2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.stripboard-5 {
+    grid-area: stripboard-5;
+    background-image: url(assets/images/Project-Storyboard/phpZM56E9.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.stripboard-6 {
+    grid-area: stripboard-6;
+    background-color: #c2ae00;
+    width: 100%;
+    height: 100%;
+}
+.stripboard-7 {
+    grid-area: stripboard-7;
+    background-color: #ae1f1f;
+    width: 100%;
+    height: 100%;
+}
+.stripboard-8 {
+    grid-area: stripboard-8;
+    background-color: #1f79ae;
+    width: 100%;
+    height: 100%;
 }
 
 
