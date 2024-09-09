@@ -247,6 +247,30 @@ article p {
     box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.651);
 }
 
+/*modal-homepage*/
+.modal {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    display: flex;
+}
+.register-modal {
+    background-color: rgb(40, 57, 71);
+    width: 600px;
+    height: 500px;
+    margin: auto;
+}
+.register-modal form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* FOOTER */
 footer {
     display: flex;
@@ -397,6 +421,13 @@ footer {
     font-size: 40px;
     color: #FFFFFF;
     filter: drop-shadow(0 0 2px rgb(255, 0, 119));
+    transition: 0.3s ease-in-out;
+}
+.user-name:hover {
+    font-size: 40px;
+    color: #FFFFFF;
+    filter: drop-shadow(0 0 7px rgb(255, 0, 119));
+    transition: 0.3s ease-in-out;
 }
 .user-title {
     font-size: 32px;

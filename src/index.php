@@ -35,6 +35,21 @@
             </section>
         </main>
 
+        <section>
+            <div class="modal">
+                <article class="register-modal">
+                    <form action="">
+                        <h2>Login - Register</h2>
+                        <button>X</button>
+                        <span>Mail</span><input type="mail">
+                        <span>Password</span><input type="password">
+                        <p>Don't have an account ? <a href="">register here</a></p>
+                        <button>Login</button>
+                    </form>
+                </article>
+            </div>
+        </section>
+
         <footer>
             <p>© Copyright 2024 De Meyer Guilain. Tous droits réservés.</p>
             <p>Plan du site | Mentions légales | Politique de confidentialité</p>
