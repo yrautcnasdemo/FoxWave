@@ -9,31 +9,14 @@
 </head>
 <body class="project-grid">
     <main class="this-project">
-        <div class="stripboard-1">
-        </div>
-        <div class="stripboard-2">
-            <img src="" alt="">
-        </div>
-        <div class="stripboard-3">
-            <img src="" alt="">
-        </div>
-        <div class="stripboard-4">
-            <div class="img-grid-4">
-                <img src="assets/images/Project Storyboard/01.png" alt="">
-            </div>
-        </div>
-        <div class="stripboard-5">
-            <img src="" alt="">
-        </div>
-        <div class="stripboard-6">
-            <img src="" alt="">
-        </div>
-        <div class="stripboard-7">
-            <img src="" alt="">
-        </div>
-        <div class="stripboard-8">
-            <img src="" alt="">
-        </div>
+        <div class="stripboard-1"></div>
+        <div class="stripboard-2"></div>
+        <div class="stripboard-3"></div>
+        <div class="stripboard-4"></div>
+        <div class="stripboard-5"></div>
+        <div class="stripboard-6"></div>
+        <div class="stripboard-7"></div>
+        <div class="stripboard-8"></div>
     </main>
 </body>
 </html>
@@ -77,12 +60,13 @@ Et partager ta précieuse liste avec eux. Qui sait, peut-être qu’un jour tu s
 justice défaillant, héhé !
 Oh, mais attention, Batman… une collection partagée peut révéler plus que tu ne le crois. Alors, tu joins la danse ou tu restes dans ta 
 Batcave, à relire tes vieux exemplaires de Detective Comics ?
-06Jokerbis-Allez, fais-moi plaisir, rejoins la fête ! 
+-Jokerbis-Allez, fais-moi plaisir, rejoins la fête ! 
 
--Qu'est ce qu'il a dit sur Detective Comics !? // Non Clark arrete... !
--J'espere que ton code n'est pas dégueulasse Joker sinon je t'envoie a Arkham pour le restant de tes jours... 
+06-Qu'est ce qu'il a dit sur Detective Comics !? // Non Clark arrete... !
+07-J'espere que ton code n'est pas dégueulasse Joker sinon je t'envoie a Arkham pour le restant de tes jours... 
 
-Joker-  avec tout ton code moral… Tu penses vraiment pouvoir me patcher, Batou ? Spoiler alert: Je suis la faille dans ton système !
+08-Joker-  avec tout ton code moral… Tu penses vraiment pouvoir me patcher, Batou ? Spoiler alert: Je suis la faille dans ton système !
+Ton CODE moral m'exaspere Batou ! 
 -->
 
 
