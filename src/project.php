@@ -8,16 +8,18 @@
     <title>FoxGlitch-Project</title>
 </head>
 <body class="project-grid">
-    <main class="this-project">
-        <div class="stripboard-1"></div>
-        <div class="stripboard-2"></div>
-        <div class="stripboard-3"></div>
-        <div class="stripboard-4"></div>
-        <div class="stripboard-5"></div>
-        <div class="stripboard-6"></div>
-        <div class="stripboard-7"></div>
-        <div class="stripboard-8"></div>
-    </main>
+    <!-- <main class="project-filter"> -->
+        <section class="this-project">
+            <div class="stripboard-1"></div>
+            <div class="stripboard-2"></div>
+            <div class="stripboard-3"></div>
+            <div class="stripboard-4"></div>
+            <div class="stripboard-5"></div>
+            <div class="stripboard-6"></div>
+            <div class="stripboard-7"></div>
+            <div class="stripboard-8"></div>
+        </section>
+    <!-- </main> -->
 </body>
 </html>
 
