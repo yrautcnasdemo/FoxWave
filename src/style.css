@@ -257,19 +257,42 @@ article p {
     right: 0;
     z-index: 30;
     background-color: rgba(0, 0, 0, 0.486);
+    backdrop-filter: blur(3px);
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+.modal2 {
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    background-color: rgba(0, 0, 0, 0.486);
+    backdrop-filter: blur(3px);
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+.show {
+    visibility: visible;
+    opacity: 1;
 }
 .banner-line{
     display: flex;
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    height: 30px;
     padding-right: 15px;
+    padding-top: 15px;
 }
 .close-modal {
     width: 20px;
     background-color: #9328B9;
     font-weight: bold;
+    cursor: pointer;
 }
 .register-modal {
     background-color: rgba(25, 9, 80, 0.61);
@@ -277,10 +300,8 @@ article p {
     margin: auto;
     color: aliceblue;
     box-shadow: 0 0 15px rgba(255, 0, 200, 0.5);
-    backdrop-filter: blur(2px);
     border:4px solid rgb(192, 192, 192);
     border-radius: 15px;
-    overflow: hidden;
 }
 .register-modal h2 {
     text-align: center;
@@ -293,7 +314,7 @@ article p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     font-family: Rajdhani-sb;
     padding: 30px 50px;
 }
@@ -347,6 +368,9 @@ svg {
     transition: 0.3s ease-in-out;
 }
 .create-acc {
+    color: rgb(255, 29, 244);
+}
+.loged-modal {
     color: rgb(255, 29, 244);
 }
 

@@ -1,3 +1,61 @@
+/*////// MODAL LOGIN-REGISTRER ///////*/
+window.onload = () => {
+    // On récupère tous les boutons d'ouverture de modale
+    const modalButtons = document.querySelectorAll("[data-toggle=modal]");
+
+    for (let button of modalButtons) {
+        button.addEventListener("click", function (e) {
+            // On empêche la navigation
+            e.preventDefault();
+
+            // On récupère le data-target
+            let target = this.dataset.target;
+
+            // On récupère la bonne modale
+            let modal = document.querySelector(target);
+            // On affiche la modale en ajoutant la class "show"
+            modal.classList.add("show");
+
+            // On récupère les boutons de fermeture
+            const modalClose = modal.querySelectorAll("[data-dismiss=form]");
+            for (let close of modalClose) {
+                close.addEventListener("click", () => {
+                    modal.classList.remove("show");
+                });
+            }
+        });
+    }
+
+    // Pour passer de la modal Login à Register
+    const createAccButton = document.querySelector(".create-acc");
+    const loginModal = document.querySelector("#modal");
+    const registerModal = document.querySelector("#modal2");
+
+    createAccButton.addEventListener("click", function (e) {
+        e.preventDefault();
+        // Fermer la modal Login
+        loginModal.classList.remove("show");
+        // Ouvrir la modal Register
+        registerModal.classList.add("show");
+    });
+
+    // Pour passer de la modal Register à Login
+    const loginButton = document.querySelector(".loged-modal");
+
+    loginButton.addEventListener("click", function (e) {
+        e.preventDefault();
+        // Fermer la modal Register
+        registerModal.classList.remove("show");
+        // Ouvrir la modal Login
+        loginModal.classList.add("show");
+    });
+}
+
+
+
+
+
+
 /*////// AUDIO PLAYING FRIEND LIST //////*/
 document.querySelectorAll('.dial-icon').forEach(ppFriend => {
     const hoverSound = ppFriend.closest('.bloc-fl-unique').querySelector('.hover-sound');
