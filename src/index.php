@@ -108,8 +108,8 @@
                     </div>
 
                     <div class="rem-for">
-                        <label for="remember-me">
-                            <input type="checkbox" id="remember-me">
+                        <label for="remember-me2">
+                            <input type="checkbox" id="remember-me2">
                             Remember me
                         </label>
                     </div>

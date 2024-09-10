@@ -23,6 +23,15 @@ window.onload = () => {
                     modal.classList.remove("show");
                 });
             }
+
+            //On gère la fermeture lors du click sur la zone grise
+            modal.addEventListener("click", function(){
+                this.classList.remove("show");
+            });
+            //On évite la propagation du click d'un enfant a son parent, car sans ca, la modal ferme si on click dessus
+            modal.children[0].addEventListener("click", function(e){
+                e.stopPropagation();
+            });
         });
     }
 
