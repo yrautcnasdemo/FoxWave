@@ -244,32 +244,112 @@ article p {
 .homepage-img3:hover {
     scale: 1.1;
     transition: 0.2s ease-in-out;
-    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.651);
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.479);
 }
 
 /*modal-homepage*/
 .modal {
-    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 30;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+.banner-line{
     display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 30px;
+    padding-right: 15px;
+}
+.close-modal {
+    width: 20px;
+    background-color: #9328B9;
+    font-weight: bold;
 }
 .register-modal {
-    background-color: rgb(40, 57, 71);
-    width: 600px;
-    height: 500px;
+    background-color: rgba(25, 9, 80, 0.61);
+    width: 450px;
     margin: auto;
+    color: aliceblue;
+    box-shadow: 0 0 15px rgba(255, 0, 200, 0.5);
+    backdrop-filter: blur(2px);
+    border:4px solid rgb(192, 192, 192);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.register-modal h2 {
+    text-align: center;
+    margin-top: 10px ;
+    font-family: Rajdhani-sb;
+    font-size: 30px;
 }
 .register-modal form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 15px;
+    font-family: Rajdhani-sb;
+    padding: 30px 50px;
 }
+.input-wrapper {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    border: 1px solid aliceblue;
+    padding: 3px;
+}
+svg {
+    width: 25px;
+}
+.login-input {
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 100%;
+    margin-left: 5px;
+}
+.login-input {
+    color: white;
+    font-family: Rajdhani-sb;
+    font-size: 16px;
+}
+.rem-for {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.rem-for a {
+    color: white;
+}
+.btn-modal {
+    background-color: #FDB314;
+    box-shadow: 0 0 15px rgba(236, 161, 0, 0.75);
+    font-size: 24px;
+    padding: 8px 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    font-family: Rajdhani-sb;
+    font-size: 24px;
+    transition: 0.3s ease-in-out;
+}
+.btn-modal:hover {
+    box-shadow: 0 0 25px rgba(236, 161, 0, 0.959);
+    transition: 0.3s ease-in-out;
+}
+.create-acc {
+    color: rgb(255, 29, 244);
+}
+
 
 /* FOOTER */
 footer {
