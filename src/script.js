@@ -42,9 +42,7 @@ window.onload = () => {
 
     createAccButton.addEventListener("click", function (e) {
         e.preventDefault();
-        // Fermer la modal Login
         loginModal.classList.remove("show");
-        // Ouvrir la modal Register
         registerModal.classList.add("show");
     });
 
@@ -53,12 +51,13 @@ window.onload = () => {
 
     loginButton.addEventListener("click", function (e) {
         e.preventDefault();
-        // Fermer la modal Register
         registerModal.classList.remove("show");
-        // Ouvrir la modal Login
         loginModal.classList.add("show");
     });
 }
+
+
+
 
 
 
@@ -72,6 +71,10 @@ document.querySelectorAll('.dial-icon').forEach(ppFriend => {
         hoverSound && (hoverSound.currentTime = 0, hoverSound.play());
     });
 });
+
+
+
+
 
 
 
