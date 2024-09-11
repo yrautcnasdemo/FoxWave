@@ -351,31 +351,12 @@ svg {
 .rem-for a {
     color: white;
 }
-/* .btn-modal {
-    background-color: #FDB314;
-    box-shadow: 0 0 15px rgba(236, 161, 0, 0.75);
-    font-size: 24px;
-    padding: 8px 15px;
-    color: rgb(255, 255, 255);
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
-    width: 250px;
-    font-family: Rajdhani-sb;
-    font-size: 24px;
-    transition: 0.3s ease-in-out;
-}
-.btn-modal:hover {
-    box-shadow: 0 0 25px rgba(236, 161, 0, 0.959);
-    transition: 0.3s ease-in-out;
-} */
 .btn-modal {
     background-color: rgba(192,192,192);
     box-shadow: 4px 4px 1px rgba(236, 161, 0, 0.75);
     font-size: 20px;
     padding: 8px 10px;
     color: rgb(0, 0, 0);
-    /* border-radius: 15px; */
     border: none;
     cursor: pointer;
     width: 150px;
@@ -409,95 +390,93 @@ footer {
 
 
 /*///THIS PROJECT///*/
-.project-grid {
-    height: 100vh;
-    margin: 0;
-    padding: 20px 300px;
-    /* background-color: #0c0c0c; */
+.project-body {
     background-image: url(assets/images/Project-Storyboard/cool2.png);
     background-size: cover;
 }
+.project-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.project-storyboard {
+    position: relative;
+    display: flex;
+}
+.main-case{
+    height: 600px;
+    border: 3px solid black;
+    box-shadow: 8px 8px 25px rgba(231, 231, 231, 0.507);
+}
+.case-2{
+    position: absolute;
+    bottom: -60px;
+    left: -60px;
+    width: 180px;
+    border: 2px solid black;
+    transform: rotate(-10deg);
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.863);
+}
+.case-3 {
+    position: absolute;
+    top: -50px;
+    left: -70px;
+    width: 260px;
+    border: 2px solid black;
+    transform: rotate(-10deg);
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.863);
+}
+.case-4 {
+    position: absolute;
+    top: -70px;
+    right: -60px;
+    width: 350px;
+    border: 2px solid black;
+    transform: rotate(20deg);
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.863);
+}
+.next-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+    filter: drop-shadow(-5px 5px 0.25rem rgba(0, 0, 0, 0.658));
+    transition: 0.3s ease-in-out;
+}
+.next-icon:hover{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    scale: 1.2;
+}
+.story-case {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 600px;
+    height: 600px;
+    background-color: #f7f7f7;
+    border-width: 3px 3px 3px 0px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 0px 20px;
+    box-shadow: 8px 8px 25px rgba(231, 231, 231, 0.507);
+}
+.story-case p:first-of-type {
+    font-family: "Wild-Worlds-bold";
+    font-size: 20px;
+    
+}
+.story-case p:nth-of-type(2) {
+    font-family: "Wild-Worlds";
+    font-size: 14px;
+    line-height: 1.3;
+}
 
-
-.this-project {
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-areas: 
-        "stripboard-1 stripboard-1 stripboard-1 stripboard-2 stripboard-2 stripboard-3"
-        "stripboard-4 stripboard-5 stripboard-5 stripboard-5 stripboard-5 stripboard-3"
-        "stripboard-4 stripboard-5 stripboard-5 stripboard-5 stripboard-5 stripboard-6"
-        "stripboard-7 stripboard-7 stripboard-7 stripboard-8 stripboard-8 stripboard-8";
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        gap: 20px;
-}
-.stripboard-1 {
-    grid-area: stripboard-1;
-    background-image: url(assets/images/Project-Storyboard/01.png);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    border: 3px solid rgb(0, 0, 0);
-}
-.stripboard-2 {
-    grid-area: stripboard-2;
-    background-image: url(assets/images/Project-Storyboard/02-Batman.png);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    border: 3px solid rgb(0, 0, 0);
-}
-.stripboard-3 {
-    grid-area: stripboard-3;
-    background-image: url(assets/images/Project-Storyboard/0003.jpg);
-    background-size: cover;
-    background-position: -20px -20px;
-    width: 100%;
-    height: 100%;
-    border: 3px solid rgb(0, 0, 0);
-}
-.stripboard-4 {
-    grid-area: stripboard-4;
-    background-image: url(assets/images/Project-Storyboard/004.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    border: 3px solid rgb(0, 0, 0);
-}
-.stripboard-5 {
-    grid-area: stripboard-5;
-    background-image: url(assets/images/Project-Storyboard/06-joker.png);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    border: 3px solid rgb(0, 0, 0);
-}
-.stripboard-6 {
-    grid-area: stripboard-6;
-    background-image: url(assets/images/Project-Storyboard/006.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    border: 3px solid rgb(0, 0, 0);
-}
-.stripboard-7 {
-    grid-area: stripboard-7;
-    background-image: url(assets/images/Project-Storyboard/008.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    border: 3px solid rgb(0, 0, 0);
-}
-.stripboard-8 {
-    grid-area: stripboard-8;
-    background-image: url(assets/images/Project-Storyboard/batmanVSJoker02.jpg);
-    background-size: cover;
-    background-position: 0px -50px;
-    width: 100%;
-    height: 100%;
-    border: 3px solid rgb(0, 0, 0);
-}
 
 
 

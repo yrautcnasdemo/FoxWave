@@ -6,6 +6,97 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fonts.css">
     <title>FoxGlitch-Project</title>
+    <style>
+        .project-grid {
+    height: 100vh;
+    margin: 0;
+    padding: 20px 300px;
+    /* background-color: #0c0c0c; */
+    background-image: url(assets/images/Project-Storyboard/cool2.png);
+    background-size: cover;
+}
+
+
+.this-project {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    grid-template-areas: 
+        "stripboard-1 stripboard-1 stripboard-1 stripboard-2 stripboard-2 stripboard-3"
+        "stripboard-4 stripboard-5 stripboard-5 stripboard-5 stripboard-5 stripboard-3"
+        "stripboard-4 stripboard-5 stripboard-5 stripboard-5 stripboard-5 stripboard-6"
+        "stripboard-7 stripboard-7 stripboard-7 stripboard-8 stripboard-8 stripboard-8";
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 20px;
+}
+.stripboard-1 {
+    grid-area: stripboard-1;
+    background-image: url(assets/images/Project-Storyboard/01.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(0, 0, 0);
+}
+.stripboard-2 {
+    grid-area: stripboard-2;
+    background-image: url(assets/images/Project-Storyboard/02-Batman.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(0, 0, 0);
+}
+.stripboard-3 {
+    grid-area: stripboard-3;
+    background-image: url(assets/images/Project-Storyboard/0003.jpg);
+    background-size: cover;
+    background-position: -20px -20px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(0, 0, 0);
+}
+.stripboard-4 {
+    grid-area: stripboard-4;
+    background-image: url(assets/images/Project-Storyboard/004.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(0, 0, 0);
+}
+.stripboard-5 {
+    grid-area: stripboard-5;
+    background-image: url(assets/images/Project-Storyboard/06-joker.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(0, 0, 0);
+}
+.stripboard-6 {
+    grid-area: stripboard-6;
+    background-image: url(assets/images/Project-Storyboard/006.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(214, 214, 214);
+}
+.stripboard-7 {
+    grid-area: stripboard-7;
+    background-image: url(assets/images/Project-Storyboard/008.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(0, 0, 0);
+}
+.stripboard-8 {
+    grid-area: stripboard-8;
+    background-image: url(assets/images/Project-Storyboard/batmanVSJoker02.jpg);
+    background-size: cover;
+    background-position: 0px -50px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(0, 0, 0);
+}
+    </style>
 </head>
 <body class="project-grid">
     <!-- <main class="project-filter"> -->

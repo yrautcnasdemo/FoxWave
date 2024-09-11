@@ -14,3 +14,11 @@
     font-family: 'Post-no-bills-EX';
     src: url(assets/fonts/post-no-bills/postnobillscolombo-extrabold.ttf);
 }
+@font-face {
+    font-family: 'Wild-Worlds';
+    src: url(assets/fonts/Wild-Words-Font-2/CC\ Wild\ Words\ Italic.ttf);
+}
+@font-face {
+    font-family: 'Wild-Worlds-bold';
+    src: url(assets/fonts/Wild-Words-Font-2/CC\ Wild\ Words\ Bold\ Italic.ttf);
+}
