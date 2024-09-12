@@ -411,6 +411,13 @@ footer {
     border: 3px solid black;
     box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.733);
 }
+.case-2-frame{
+    position: absolute;
+    bottom: -60px;
+    left: -60px;
+    width: 180px;
+    transform: rotate(-10deg);
+}
 .case-2{
     position: absolute;
     bottom: -60px;
@@ -435,7 +442,15 @@ footer {
     opacity: 0;
     transition: 0.5s ease-in-out;
 }
+
+.case-2:hover {
+    scale: 1.2;
+}
 .case-2:hover + .case-speech-2 {
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+.case-speech-2:hover {
     opacity: 1;
     transition: 0.5s ease-in-out;
 }
