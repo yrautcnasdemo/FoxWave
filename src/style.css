@@ -444,7 +444,7 @@ footer {
 }
 
 .case-2:hover {
-    scale: 1.2;
+    /* scale: 1.2; */
 }
 .case-2:hover + .case-speech-2 {
     opacity: 1;
