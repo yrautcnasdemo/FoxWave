@@ -17,8 +17,10 @@
         <figure class="project-storyboard">
             <img class="main-case" src="assets/images/Project-Storyboard/batmanwholaugh.webp" alt="">
             <img class="case-2" src="assets/images/Project-Storyboard/2er5eg4puyu31.webp" alt="">
+            <div class="case-speech-2"><p>Wow, Batsy... t'as surpasse Mister J !</p></div>
             <img class="case-3" src="assets/images/Project-Storyboard/07-Batman-superman.png" alt="">
             <img class="case-4" src="assets/images/Project-Storyboard/06-joker.png" alt="">
+            <div class="case-speech-4"><img src="assets/images/Project-Storyboard/speech1.png" width="340px" alt=""><p class="speech-4">Why so <br> serious Batsy !?</p></div>
 
             <figcaption class="story-case">
                 <p>Welcome to my project</p>
