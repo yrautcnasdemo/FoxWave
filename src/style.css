@@ -457,30 +457,6 @@ footer {
     transform: rotate(20deg);
     box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.863);
 }
-.case-speech-4{
-    position: absolute;
-    top: 110px;
-    right: -160px;
-    width: 350px;
-    transform: rotate(20deg);
-    filter: drop-shadow(7px 7px 1px #0c0c0c);
-    opacity: 0;
-    transition: 0.5s ease-in-out;
-}
-.speech-4 {
-    position: absolute;
-    left: 99px;
-    font-family: "Wild-Worlds";
-    font-size: 16px;
-    top: 65px;
-    text-align: center;
-    opacity: 0;
-    transition: 0.5s ease-in-out;
-}
-.case-speech-4 + .speech-4 {
-    opacity: 1;
-    transition: 0.5s ease-in-out;
-}
 .next-icon {
     position: absolute;
     bottom: 10px;
@@ -1196,6 +1172,22 @@ th, td {
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+}
+.select-add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.register-add-btn {
+    font-family: Rajdhani-sb;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: 2px solid #1e1e1e;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 /*Backoffice table books*/
 .books-panel {
