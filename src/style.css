@@ -471,18 +471,8 @@ footer {
     transform: rotate(-10deg);
     box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.863);
 }
-/* .case-4 {
-    position: absolute;
-    top: -70px;
-    right: -60px;
-    width: 350px;
-    border: 2px solid black;
-    transform: rotate(20deg);
-    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.863);
-} */
-
+/*The joker case*/
 .case-4-frame {
-    background-color: violet;
     position: absolute;
     top: -70px;
     right: -60px;
@@ -492,8 +482,22 @@ footer {
     transform: rotate(20deg);
     box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.863);
 }
+.case-4-frame:hover .the-joker {
+    scale: 1.2;
+    bottom: 19px;
+    left: 35px;
+    transition: 0.2s ease-in-out;
+}
+.case-4-frame:hover .bg-joker {
+    scale: 1.1;
+    animation: vibrate 0.1s infinite;
+    transition: transform 0.2s ease-in-out;
+}
+.case-4-frame:hover .speech-joker {
+    transition: transform 0.2s ease-in-out;
+    opacity: 1;
+}
 .div-bg-joker {
-    background-color: rgb(114, 13, 114);
     position: absolute;
     top: 0px;
     right: 0px;
@@ -507,17 +511,6 @@ footer {
     right: 0px;
     width: 350px;
     height: 198px;
-    /* scale: 1.1; */
-    /* animation: vibrate 0.1s infinite; */
-}
-.bg-joker:hover {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 350px;
-    height: 198px;
-    scale: 1.1;
-    animation: vibrate 0.1s infinite;
 }
 @keyframes vibrate {
     0% {
@@ -537,7 +530,6 @@ footer {
     }
 }
 .div-the-joker {
-    /* background-color: green; */
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -550,24 +542,16 @@ footer {
     left: 0px;
     width: 350px;
     height: 198px;
-    transition: 0.1s ease-out;
-
 }
-.the-joker:hover {
+.speech-joker {
     position: absolute;
-    bottom: 19px;
-    left:35px;
-    width: 350px;
-    height: 198px;
-    scale: 1.2;
-    transition: 0.1s ease-out;
+    bottom: -122px;
+    left: 173px;
+    width: 336px;
+    opacity: 0;
+    filter: drop-shadow(-5px 5px 2px rgba(0, 0, 0, 0.658));
 }
-
-
-
-
-
-
+/*icone Next*/
 .next-icon {
     position: absolute;
     bottom: 10px;
