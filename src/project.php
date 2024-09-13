@@ -20,7 +20,13 @@
                 <img class="case-2" src="assets/images/Project-Storyboard/2er5eg4puyu31.webp" alt="">
             </div>
             <div class="case-speech-2"><p>Wow, Batou... t'as surpasse Mister J !</p></div>
-            <img class="case-3" src="assets/images/Project-Storyboard/07-Batman-superman.png" alt="">
+
+            <div class="case-3-frame">
+                <div class="case-3-batman">
+                    <img class="case-3" src="assets/images/Project-Storyboard/07-Batman-superman.png" alt="batman-superman-img">
+                </div>
+                <img class="speech-batman" src="assets/images/Project-Storyboard/batman-speech.png" alt="batman-speech">
+            </div>
 
             <div class="case-4-frame"> <!-- DIV - CARDRE -->
                 <div class="div-bg-joker"> <!-- DIV - OVER HIDDEN FOR THE BACKGROUND + scale 1.2 -->

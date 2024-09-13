@@ -446,7 +446,6 @@ footer {
     opacity: 0;
     transition: 0.3s ease-out;
 }
-
 .case-2:hover {
     scale: 2.5;
     bottom: -60px;
@@ -462,15 +461,65 @@ footer {
     opacity: 1;
     transition: 0.3s ease-out;
 }
-.case-3 {
+
+
+
+.case-3-frame{
     position: absolute;
-    top: -50px;
-    left: -70px;
+    top: -54px;
+    left: -74px;
     width: 260px;
+    height: 146px;
     border: 2px solid black;
     transform: rotate(-10deg);
     box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.863);
 }
+.case-3-batman{
+    position: absolute;
+    width: 260px;
+    height: 146px;
+}
+.case-3-batman{
+    position: absolute;
+    overflow: hidden;
+}
+.case-3-frame:hover .speech-batman{
+    position: absolute;
+    width: 160px;
+    transition: 0.2s ease-in;
+    opacity: 1;
+    filter: drop-shadow(-5px 5px 2px rgba(0, 0, 0, 0.658));
+}
+.case-3-frame:hover .case-3 {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 260px;
+    scale: 1;
+    transition: 0.2s ease-in;
+}
+.case-3 {
+    position: absolute;
+    top: 113px;
+    left: -154px;
+    width: 260px;
+    transition: 0.2s ease-in;
+    scale: 3;
+}
+.speech-batman{
+    position: absolute;
+    top: -10px;
+    left: 215px;
+    width: 160px;
+    transition: 0.2s ease-in;
+    transform: rotate(10deg);
+    opacity: 0;
+}
+
+
+
+
+
 /*The joker case*/
 .case-4-frame {
     position: absolute;
