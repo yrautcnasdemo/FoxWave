@@ -16,13 +16,23 @@
     <section class="project-section">
         <figure class="project-storyboard">
             <img class="main-case" src="assets/images/Project-Storyboard/batmanwholaugh.webp" alt="">
-            <!-- <div class="case-2-frame"> -->
+            <div class="case-2-frame">
                 <img class="case-2" src="assets/images/Project-Storyboard/2er5eg4puyu31.webp" alt="">
-            <!-- </div> -->
+            </div>
             <div class="case-speech-2"><p>Wow, Batou... t'as surpasse Mister J !</p></div>
-            <!-- FAIRE UN ZOOM SUR HARLEY QUINN AU SURVOLE AVEC UN EASE-IN SEULEMENT -->
             <img class="case-3" src="assets/images/Project-Storyboard/07-Batman-superman.png" alt="">
-            <img class="case-4" src="assets/images/Project-Storyboard/06-joker.png" alt="">
+            <!-- JOKER START -->
+            <!-- <img class="case-4" src="assets/images/Project-Storyboard/06-joker.png" alt=""> -->
+            <!-- JOKER END -->
+            <div class="case-4-frame"> <!-- DIV - CARDRE -->
+                <div class="div-bg-joker"> <!-- DIV - OVER HIDDEN FOR THE BACKGROUND + scale 1.2 -->
+                    <img class="bg-joker" src="assets/images/Project-Storyboard/multiple-joker1-0.png" alt="bgjoker"> <!-- IMG - THE BACKGROUND -->
+                </div>
+                <div class="div-the-joker"> <!-- DIV NOT OVER HIDDEN FOR THE JOKER -->
+                    <img class="the-joker" src="assets/images/Project-Storyboard/multiple-joker1-1.png"  alt=""> <!-- THE JOKER WITHOUT BACKGROUND -->
+                </div>
+            </div>
+
 
             <figcaption class="story-case">
                 <p>Welcome to my project</p>
