@@ -26,9 +26,9 @@
                             <div class="user-btn-panel">
                                 <a href="backoffice.php"><button>Add books</button></a>
                                 <a href="user.php"><img class="booklist-icon" src="assets/images/icones/booklist.png" width="35px" alt=""></a>
-                                <a href="friendslist.php"><img src="assets/images/icones/Friend List(1).png" width="35px" alt=""></a>
-                                <a href=""><img src="assets/images/icones/Wishlist.png" width="35px" alt=""></a>
-                                <a href=""><img src="assets/images/icones/GearWhite-Small-icon01.png" width="35px" alt=""></a>
+                                <a href="friendslist.php"><img class="hov-pro" src="assets/images/icones/Friend List(1).png" width="35px" alt=""></a>
+                                <a href=""><img class="hov-pro" src="assets/images/icones/Wishlist.png" width="35px" alt=""></a>
+                                <a href=""><img class="hov-pro" src="assets/images/icones/GearWhite-Small-icon01.png" width="35px" alt=""></a>
                             </div>                    
                     </div>
                     <div class="user-about">

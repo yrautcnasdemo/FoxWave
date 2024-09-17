@@ -1100,6 +1100,19 @@ th, td {
 }
 .booklist-icon {
     padding: 3px;
+    transition: 0.1s ease-in-out;
+}
+.booklist-icon:hover {
+    padding: 4px;
+    transition: 0.1s ease-in-out;
+}
+.hov-pro {
+    padding: 0;
+    transition: 0.1s ease-in-out;
+}
+.hov-pro:hover{
+    padding: 1px;
+    transition: 0.1s ease-in-out;
 }
 .bloc-fl-unique{
     position: relative;

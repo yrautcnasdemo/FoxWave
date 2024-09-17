@@ -25,9 +25,9 @@
                         <img src="assets/images/profiles/profiles_pictures/black-cat-colorful-hd.jpg" width="300px" height="500px" alt="profile-pics-user">
                             <div class="user-btn-panel">
                                 <a href="backoffice.php"><button>Add Friend</button></a>
-                                <a href="user.php"><img src="assets/images/icones/homefixed.png" width="35px" alt=""></a>
+                                <a href="user.php"><img class="hov-pro" src="assets/images/icones/homefixed.png" width="35px" alt=""></a>
                                 <a href=""><img class="booklist-icon" src="assets/images/icones/booklist.png" width="35px" alt=""></a>
-                                <a href=""><img src="assets/images/icones/Wishlist.png" width="35px" alt=""></a>
+                                <a href=""><img class="hov-pro" src="assets/images/icones/Wishlist.png" width="35px" alt=""></a>
                             </div>                    
                     </div>
                     <div class="user-about">
