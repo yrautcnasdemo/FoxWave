@@ -1378,6 +1378,11 @@ th, td {
     margin: auto;
     text-align: center;
 }
+tbody tr td:nth-child(2),
+tbody tr td:nth-child(3),
+tbody tr td:nth-child(4) {
+    text-align: center;
+}
 
 .backoffice-table-edit tr {
     background: linear-gradient(90deg,#41132C, #651830);
