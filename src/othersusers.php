@@ -212,7 +212,7 @@
 
                     <article class="user-comics-panel expanded">
                         <div class="banner-img">
-                            <img src="assets/images/profiles/banner-comics2.webp" alt="comics-banner">
+                            <img src="assets/images/profiles/banner-comics3.webp" alt="comics-banner">
                             <a class="btn-list2" href="#">Comics List</a>
                         </div>
                         
