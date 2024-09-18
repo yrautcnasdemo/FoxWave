@@ -67,7 +67,7 @@
                         <img class="banner-fl-sup" src="assets/images/profiles/banner-fl-sup.png" alt="banner-flsup">
                         <img class="banner-fl-down" src="assets/images/profiles/banner-fl-down.png" alt="banner-fldown">
                         <div class="pp-box">
-                            <img class="pp-friend" src="assets/images/profiles/profiles_pictures/catwim.jpg" alt="profile-pic-friend">
+                            <a href="othersusers.php"><img class="pp-friend" src="assets/images/profiles/profiles_pictures/catwim.jpg" alt="profile-pic-friend"></a>
                         </div>
                         <img class="dial-icon" src="assets/images/icones/dial-icon.png" alt="">
                         <img class="remove-icon" src="assets/images/icones/Retrowave/Remove-icon-retro.png" alt="">
@@ -189,9 +189,8 @@
         </section>
     </main>
     <footer>
-            <p>© Copyright 2024 De Meyer Guilain. Tous droits réservés.</p>
-            <p>Plan du site | Mentions légales | Politique de confidentialité</p>
-            <p>Special thanks</p>
+        <p>© Copyright 2024 De Meyer Guilain. All rights reserved.</p>
+        <p><a href="index.php">homepage</a> | <a href="project.php">About Site</a> | <a href="">Privacy Policy</a></p>
     </footer>
 </body>
 <script src="script.js"></script>

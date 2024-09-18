@@ -121,9 +121,8 @@
         </section>
 
         <footer>
-            <p>© Copyright 2024 De Meyer Guilain. Tous droits réservés.</p>
-            <p>Plan du site | Mentions légales | Politique de confidentialité</p>
-            <p>Special thanks</p>
+            <p>© Copyright 2024 De Meyer Guilain. All rights reserved.</p>
+            <p><a href="index.php">homepage</a> | <a href="project.php">About Site</a> | <a href="">Privacy Policy</a></p>
         </footer>
     </div>
 
